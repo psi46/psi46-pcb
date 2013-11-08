@@ -29,8 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:conn-scsi68
-LIBS:testAdapter1-cache
+LIBS:FPix2DTB_90deg-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -134,7 +133,7 @@ Text GLabel 7800 5250 0    60   Input ~ 0
 HV
 Text GLabel 8350 4350 0    60   Input ~ 0
 RTD+
-Text GLabel 8350 4450 0    60   Input ~ 0
+Text GLabel 8350 4450 0    60   Output ~ 0
 RTD-
 Text GLabel 8350 4650 0    60   Output ~ 0
 TBM_Out_A-
@@ -166,9 +165,9 @@ NoConn ~ 8500 5150
 NoConn ~ 8500 5450
 NoConn ~ 10000 5150
 NoConn ~ 10000 5450
-Text GLabel 6100 800  2    60   Input ~ 0
+Text GLabel 6400 800  2    60   Input ~ 0
 TBM_Out_A+
-Text GLabel 6100 1300 2    60   Input ~ 0
+Text GLabel 6400 1300 2    60   Input ~ 0
 TBM_Out_A-
 $Comp
 L R R4
@@ -368,36 +367,36 @@ F 3 "" H 5350 6100 30  0000 C CNN
 	1    5350 6100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6100 1600 2    60   Input ~ 0
+Text GLabel 6400 1600 2    60   Input ~ 0
 TBM_RClk_Out+
-Text GLabel 6100 2100 2    60   Input ~ 0
+Text GLabel 6400 2100 2    60   Input ~ 0
 TBM_RClk_Out-
-Text GLabel 6100 2400 2    60   Input ~ 0
+Text GLabel 6400 2400 2    60   Input ~ 0
 TBM_RDa_Out+
-Text GLabel 6100 2900 2    60   Input ~ 0
+Text GLabel 6400 2900 2    60   Input ~ 0
 TBM_RDa_Out-
-Text GLabel 6100 3200 2    60   Input ~ 0
+Text GLabel 6400 3200 2    60   Output ~ 0
 TBM_SD_In+
-Text GLabel 6100 3700 2    60   Input ~ 0
+Text GLabel 6400 3700 2    60   Output ~ 0
 TBM_SD_In-
-Text GLabel 6100 4000 2    60   Input ~ 0
+Text GLabel 6400 4000 2    60   Output ~ 0
 TBM_Trig_In+
-Text GLabel 6100 4500 2    60   Input ~ 0
+Text GLabel 6400 4500 2    60   Output ~ 0
 TBM_Trig_In-
-Text GLabel 6100 4800 2    60   Input ~ 0
+Text GLabel 6400 4800 2    60   Output ~ 0
 TBM_Clk_In+
-Text GLabel 6100 5300 2    60   Input ~ 0
+Text GLabel 6400 5300 2    60   Output ~ 0
 TBM_Clk_In-
-Text GLabel 6100 5600 2    60   Input ~ 0
+Text GLabel 6400 5600 2    60   Input ~ 0
 TBM_160MHz_Out+
-Text GLabel 6100 6100 2    60   Input ~ 0
+Text GLabel 6400 6100 2    60   Input ~ 0
 TBM_160MHz_Out-
 $Comp
 L R R23
 U 1 1 526C35B3
 P 5850 6700
 F 0 "R23" V 5930 6700 40  0000 C CNN
-F 1 "10k" V 5857 6701 40  0000 C CNN
+F 1 "10k 5%" V 5857 6701 40  0000 C CNN
 F 2 "SM0603" V 5780 6700 30  0000 C CNN
 F 3 "" H 5850 6700 30  0000 C CNN
 	1    5850 6700
@@ -408,7 +407,7 @@ L R R24
 U 1 1 526C35C2
 P 5850 6900
 F 0 "R24" V 5930 6900 40  0000 C CNN
-F 1 "10k" V 5857 6901 40  0000 C CNN
+F 1 "10k 5%" V 5857 6901 40  0000 C CNN
 F 2 "SM0603" V 5780 6900 30  0000 C CNN
 F 3 "" H 5850 6900 30  0000 C CNN
 	1    5850 6900
@@ -419,7 +418,7 @@ L R R26
 U 1 1 526C35D1
 P 5300 7250
 F 0 "R26" V 5380 7250 40  0000 C CNN
-F 1 "10k" V 5307 7251 40  0000 C CNN
+F 1 "10k 0.1%" V 5307 7251 40  0000 C CNN
 F 2 "SM0603" V 5230 7250 30  0000 C CNN
 F 3 "" H 5300 7250 30  0000 C CNN
 	1    5300 7250
@@ -430,7 +429,7 @@ L R R25
 U 1 1 526C35E0
 P 5100 7250
 F 0 "R25" V 5180 7250 40  0000 C CNN
-F 1 "10k" V 5107 7251 40  0000 C CNN
+F 1 "10k 0.1%" V 5107 7251 40  0000 C CNN
 F 2 "SM0603" V 5030 7250 30  0000 C CNN
 F 3 "" H 5100 7250 30  0000 C CNN
 	1    5100 7250
@@ -441,7 +440,7 @@ L R R22
 U 1 1 526C35EF
 P 5550 6500
 F 0 "R22" V 5630 6500 40  0000 C CNN
-F 1 "10k" V 5557 6501 40  0000 C CNN
+F 1 "10k 0.1%" V 5557 6501 40  0000 C CNN
 F 2 "SM0603" V 5480 6500 30  0000 C CNN
 F 3 "" H 5550 6500 30  0000 C CNN
 	1    5550 6500
@@ -559,25 +558,25 @@ Text GLabel 4850 4500 0    60   Input ~ 0
 CTR_n
 Text GLabel 4850 4000 0    60   Input ~ 0
 CTR_p
-Text GLabel 4850 800  0    60   Input ~ 0
+Text GLabel 4850 800  0    60   Output ~ 0
 SDATA1_p
-Text GLabel 4850 1300 0    60   Input ~ 0
+Text GLabel 4850 1300 0    60   Output ~ 0
 SDATA1_n
-Text GLabel 4850 1600 0    60   Input ~ 0
+Text GLabel 4850 1600 0    60   Output ~ 0
 SDATA3_p
-Text GLabel 4850 2100 0    60   Input ~ 0
+Text GLabel 4850 2100 0    60   Output ~ 0
 SDATA3_n
-Text GLabel 4850 5600 0    60   Input ~ 0
+Text GLabel 4850 5600 0    60   Output ~ 0
 SDATA4_p
-Text GLabel 4850 6100 0    60   Input ~ 0
+Text GLabel 4850 6100 0    60   Output ~ 0
 SDATA4_n
 Text GLabel 4850 3700 0    60   Input ~ 0
 SDA_n
 Text GLabel 4850 3200 0    60   Input ~ 0
 SDA_p
-Text GLabel 4850 2400 0    60   Input ~ 0
+Text GLabel 4850 2400 0    60   Output ~ 0
 TOUT_p
-Text GLabel 4850 2900 0    60   Input ~ 0
+Text GLabel 4850 2900 0    60   Output ~ 0
 TOUT_n
 $Comp
 L 24C02 U1
@@ -612,9 +611,7 @@ NoConn ~ 2800 3600
 NoConn ~ 2800 3700
 NoConn ~ 1800 2200
 Wire Wire Line
-	5600 800  6100 800 
-Wire Wire Line
-	5600 1300 6100 1300
+	5600 1300 6400 1300
 Wire Wire Line
 	3100 4600 2800 4600
 Wire Wire Line
@@ -720,40 +717,38 @@ Connection ~ 10750 5750
 Connection ~ 5800 800 
 Connection ~ 5800 1300
 Wire Wire Line
-	5600 1600 6100 1600
+	5600 1600 6400 1600
 Connection ~ 5800 1600
 Wire Wire Line
-	5600 2100 6100 2100
+	5600 2100 6400 2100
 Connection ~ 5800 2100
 Wire Wire Line
-	5600 2400 6100 2400
+	5600 2400 6400 2400
 Connection ~ 5800 2400
 Wire Wire Line
-	5600 2900 6100 2900
+	5600 2900 6400 2900
 Connection ~ 5800 2900
 Wire Wire Line
-	5600 3200 6100 3200
+	5600 3200 6400 3200
 Connection ~ 5800 3200
 Wire Wire Line
-	5600 3700 6100 3700
+	5600 3700 6400 3700
 Connection ~ 5800 3700
 Wire Wire Line
-	5600 4000 6100 4000
+	5600 4000 6400 4000
 Connection ~ 5800 4000
-Wire Wire Line
-	5600 4500 6100 4500
 Connection ~ 5800 4500
 Wire Wire Line
-	5600 4800 6100 4800
+	5600 4800 6400 4800
 Connection ~ 5800 4800
 Wire Wire Line
-	5600 5300 6100 5300
+	5600 5300 6400 5300
 Connection ~ 5800 5300
 Wire Wire Line
-	5600 5600 6100 5600
+	5600 5600 6400 5600
 Connection ~ 5800 5600
 Wire Wire Line
-	5600 6100 6100 6100
+	5600 6100 6400 6100
 Connection ~ 5800 6100
 Wire Wire Line
 	6100 6700 6700 6700
@@ -887,8 +882,6 @@ Connection ~ 3100 1700
 Wire Wire Line
 	3100 5000 2300 5000
 Connection ~ 3100 5000
-Wire Wire Line
-	4850 800  5100 800 
 Wire Wire Line
 	5100 1300 4850 1300
 Wire Wire Line
@@ -1078,176 +1071,169 @@ Wire Wire Line
 $Comp
 L TST P1
 U 1 1 526ECC25
-P 4900 800
-F 0 "P1" H 4900 1100 40  0000 C CNN
-F 1 "SDATA+" H 4900 1050 30  0000 C CNN
-F 2 "testpad" H 4900 800 60  0000 C CNN
-F 3 "" H 4900 800 60  0000 C CNN
-	1    4900 800 
+P 6000 800
+F 0 "P1" H 6000 1100 40  0000 C CNN
+F 1 "OutA+" H 6000 1050 30  0000 C CNN
+F 2 "" H 6000 800 60  0000 C CNN
+F 3 "" H 6000 800 60  0000 C CNN
+	1    6000 800 
 	-1   0    0    1   
 $EndComp
-$Comp
-L TST P2
-U 1 1 526ECC34
-P 5100 1300
-F 0 "P2" H 5100 1600 40  0000 C CNN
-F 1 "SDATA-" H 5100 1550 30  0000 C CNN
-F 2 "testpad" H 5100 1300 60  0000 C CNN
-F 3 "" H 5100 1300 60  0000 C CNN
-	1    5100 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TST P3
-U 1 1 526ECC43
-P 4900 1600
-F 0 "P3" H 4900 1900 40  0000 C CNN
-F 1 "SDATA+" H 4900 1850 30  0000 C CNN
-F 2 "testpad" H 4900 1600 60  0000 C CNN
-F 3 "" H 4900 1600 60  0000 C CNN
-	1    4900 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L TST P4
-U 1 1 526ECC52
-P 5100 2100
-F 0 "P4" H 5100 2400 40  0000 C CNN
-F 1 "SDATA3-" H 5100 2350 30  0000 C CNN
-F 2 "testpad" H 5100 2100 60  0000 C CNN
-F 3 "" H 5100 2100 60  0000 C CNN
-	1    5100 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L TST P5
-U 1 1 526ECC61
-P 4900 2400
-F 0 "P5" H 4900 2700 40  0000 C CNN
-F 1 "TOUT+" H 4900 2650 30  0000 C CNN
-F 2 "testpad" H 4900 2400 60  0000 C CNN
-F 3 "" H 4900 2400 60  0000 C CNN
-	1    4900 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L TST P6
-U 1 1 526ECC70
-P 5100 2900
-F 0 "P6" H 5100 3200 40  0000 C CNN
-F 1 "TOUT-" H 5100 3150 30  0000 C CNN
-F 2 "testpad" H 5100 2900 60  0000 C CNN
-F 3 "" H 5100 2900 60  0000 C CNN
-	1    5100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L TST P7
-U 1 1 526ECC7F
-P 4900 3200
-F 0 "P7" H 4900 3500 40  0000 C CNN
-F 1 "SDA+" H 4900 3450 30  0000 C CNN
-F 2 "testpad" H 4900 3200 60  0000 C CNN
-F 3 "" H 4900 3200 60  0000 C CNN
-	1    4900 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L TST P8
-U 1 1 526ECC8E
-P 5100 3700
-F 0 "P8" H 5100 4000 40  0000 C CNN
-F 1 "SDA-" H 5100 3950 30  0000 C CNN
-F 2 "testpad" H 5100 3700 60  0000 C CNN
-F 3 "" H 5100 3700 60  0000 C CNN
-	1    5100 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L TST P9
-U 1 1 526ECC9D
-P 4900 4000
-F 0 "P9" H 4900 4300 40  0000 C CNN
-F 1 "CLK+" H 4900 4250 30  0000 C CNN
-F 2 "testpad" H 4900 4000 60  0000 C CNN
-F 3 "" H 4900 4000 60  0000 C CNN
-	1    4900 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L TST P10
-U 1 1 526ECCAC
-P 5100 4500
-F 0 "P10" H 5100 4800 40  0000 C CNN
-F 1 "CTR-" H 5100 4750 30  0000 C CNN
-F 2 "testpad" H 5100 4500 60  0000 C CNN
-F 3 "" H 5100 4500 60  0000 C CNN
-	1    5100 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L TST P11
-U 1 1 526ECCBB
-P 4900 4800
-F 0 "P11" H 4900 5100 40  0000 C CNN
-F 1 "CLK+" H 4900 5050 30  0000 C CNN
-F 2 "testpad" H 4900 4800 60  0000 C CNN
-F 3 "" H 4900 4800 60  0000 C CNN
-	1    4900 4800
-	-1   0    0    1   
-$EndComp
-$Comp
-L TST P12
-U 1 1 526ECCCA
-P 5100 5300
-F 0 "P12" H 5100 5600 40  0000 C CNN
-F 1 "CLK-" H 5100 5550 30  0000 C CNN
-F 2 "testpad" H 5100 5300 60  0000 C CNN
-F 3 "" H 5100 5300 60  0000 C CNN
-	1    5100 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TST P13
-U 1 1 526ECCD9
-P 4900 5600
-F 0 "P13" H 4900 5900 40  0000 C CNN
-F 1 "SDATA4+" H 4900 5850 30  0000 C CNN
-F 2 "testpad" H 4900 5600 60  0000 C CNN
-F 3 "" H 4900 5600 60  0000 C CNN
-	1    4900 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L TST P14
-U 1 1 526ECCE8
-P 5100 6100
-F 0 "P14" H 5100 6400 40  0000 C CNN
-F 1 "SDATA4-" H 5100 6350 30  0000 C CNN
-F 2 "testpad" H 5100 6100 60  0000 C CNN
-F 3 "" H 5100 6100 60  0000 C CNN
-	1    5100 6100
-	1    0    0    -1  
-$EndComp
-Connection ~ 4900 800 
 Wire Wire Line
 	4850 6100 5100 6100
-Connection ~ 4900 5600
-Connection ~ 5100 6100
-Connection ~ 5100 5300
-Connection ~ 4900 4800
-Connection ~ 5100 4500
-Connection ~ 4900 4000
-Connection ~ 5100 3700
-Connection ~ 4900 3200
-Connection ~ 5100 2900
-Connection ~ 5100 1300
-Connection ~ 4900 1600
-Connection ~ 5100 2100
-Connection ~ 4900 2400
 Wire Wire Line
 	5300 6500 5300 7000
 Connection ~ 5800 6350
 Wire Wire Line
 	5800 6500 5800 6350
+Wire Wire Line
+	5600 800  6400 800 
+Connection ~ 6000 800 
+Wire Wire Line
+	5100 800  4850 800 
+$Comp
+L TST P?
+U 1 1 527C410F
+P 6200 2100
+F 0 "P?" H 6200 2400 40  0000 C CNN
+F 1 "RClk-" H 6200 2350 30  0000 C CNN
+F 2 "" H 6200 2100 60  0000 C CNN
+F 3 "" H 6200 2100 60  0000 C CNN
+	1    6200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4500 6400 4500
+$Comp
+L TST P?
+U 1 1 527C44F9
+P 6200 1300
+F 0 "P?" H 6200 1600 40  0000 C CNN
+F 1 "OutA-" H 6200 1550 30  0000 C CNN
+F 2 "" H 6200 1300 60  0000 C CNN
+F 3 "" H 6200 1300 60  0000 C CNN
+	1    6200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C4508
+P 6000 1600
+F 0 "P?" H 6000 1900 40  0000 C CNN
+F 1 "RClk+" H 6000 1850 30  0000 C CNN
+F 2 "" H 6000 1600 60  0000 C CNN
+F 3 "" H 6000 1600 60  0000 C CNN
+	1    6000 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C4517
+P 6000 2400
+F 0 "P?" H 6000 2700 40  0000 C CNN
+F 1 "RDa+" H 6000 2650 30  0000 C CNN
+F 2 "" H 6000 2400 60  0000 C CNN
+F 3 "" H 6000 2400 60  0000 C CNN
+	1    6000 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C4530
+P 6200 2900
+F 0 "P?" H 6200 3200 40  0000 C CNN
+F 1 "RDa-" H 6200 3150 30  0000 C CNN
+F 2 "" H 6200 2900 60  0000 C CNN
+F 3 "" H 6200 2900 60  0000 C CNN
+	1    6200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C453F
+P 6000 3200
+F 0 "P?" H 6000 3500 40  0000 C CNN
+F 1 "SDA+" H 6000 3450 30  0000 C CNN
+F 2 "" H 6000 3200 60  0000 C CNN
+F 3 "" H 6000 3200 60  0000 C CNN
+	1    6000 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C454E
+P 6200 3700
+F 0 "P?" H 6200 4000 40  0000 C CNN
+F 1 "SDA-" H 6200 3950 30  0000 C CNN
+F 2 "" H 6200 3700 60  0000 C CNN
+F 3 "" H 6200 3700 60  0000 C CNN
+	1    6200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C455D
+P 6000 4000
+F 0 "P?" H 6000 4300 40  0000 C CNN
+F 1 "CTR+" H 6000 4250 30  0000 C CNN
+F 2 "" H 6000 4000 60  0000 C CNN
+F 3 "" H 6000 4000 60  0000 C CNN
+	1    6000 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C456C
+P 6200 4500
+F 0 "P?" H 6200 4800 40  0000 C CNN
+F 1 "CTR-" H 6200 4750 30  0000 C CNN
+F 2 "" H 6200 4500 60  0000 C CNN
+F 3 "" H 6200 4500 60  0000 C CNN
+	1    6200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C457B
+P 6000 4800
+F 0 "P?" H 6000 5100 40  0000 C CNN
+F 1 "CLK+" H 6000 5050 30  0000 C CNN
+F 2 "" H 6000 4800 60  0000 C CNN
+F 3 "" H 6000 4800 60  0000 C CNN
+	1    6000 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C458A
+P 6200 5300
+F 0 "P?" H 6200 5600 40  0000 C CNN
+F 1 "CLK-" H 6200 5550 30  0000 C CNN
+F 2 "" H 6200 5300 60  0000 C CNN
+F 3 "" H 6200 5300 60  0000 C CNN
+	1    6200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C4599
+P 6000 5600
+F 0 "P?" H 6000 5900 40  0000 C CNN
+F 1 "160Clk+" H 6000 5850 30  0000 C CNN
+F 2 "" H 6000 5600 60  0000 C CNN
+F 3 "" H 6000 5600 60  0000 C CNN
+	1    6000 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TST P?
+U 1 1 527C45A8
+P 6200 6100
+F 0 "P?" H 6200 6400 40  0000 C CNN
+F 1 "160Clk-" H 6200 6350 30  0000 C CNN
+F 2 "" H 6200 6100 60  0000 C CNN
+F 3 "" H 6200 6100 60  0000 C CNN
+	1    6200 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
