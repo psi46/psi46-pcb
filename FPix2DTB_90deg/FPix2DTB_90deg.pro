@@ -1,11 +1,6 @@
-update=Fri 08 Nov 2013 02:57:44 AM CET
+update=Fri 08 Nov 2013 03:29:15 AM CET
 version=1
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -67,7 +62,6 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -87,3 +81,9 @@ LibName16=valves
 LibName17=/home/frank/kicad/adapter
 LibName18=/home/frank/kicad/cms
 LibName19=/home/frank/kicad/smk
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
