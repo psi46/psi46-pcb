@@ -2,11 +2,11 @@
 
   (general
     (links 133)
-    (no_connects 1)
-    (area 0 0 0 0)
+    (no_connects 0)
+    (area 99.568 119.264999 200.100001 150.100001)
     (thickness 1.6)
     (drawings 80)
-    (tracks 562)
+    (tracks 563)
     (zones 0)
     (modules 59)
     (nets 68)
@@ -16,12 +16,12 @@
   (layers
     (15 F.Cu signal)
     (2 Inner2.Cu power hide)
-    (1 Inner1.Cu power hide)
+    (1 Inner1.Cu power)
     (0 B.Cu signal)
     (21 F.SilkS user hide)
     (22 B.Mask user hide)
     (23 F.Mask user hide)
-    (24 Dwgs.User user hide)
+    (24 Dwgs.User user)
     (25 Cmts.User user hide)
     (26 Eco1.User user hide)
     (27 Eco2.User user hide)
@@ -29,7 +29,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.20828)
     (user_trace_width 0.20828)
     (user_trace_width 0.3)
     (user_trace_width 0.6858)
@@ -2478,6 +2478,7 @@
   (segment (start 147.574 142.748) (end 147.574 128.778) (width 0.20828) (layer B.Cu) (net 2) (tstamp 527EF238))
   (segment (start 142.24 148.082) (end 147.574 142.748) (width 0.20828) (layer B.Cu) (net 2) (tstamp 527EF237))
   (via (at 142.24 148.082) (size 0.889) (layers F.Cu B.Cu) (net 2))
+  (segment (start 160.274 148.082) (end 161.544 148.082) (width 0.20828) (layer F.Cu) (net 3))
   (segment (start 158.75 148.082) (end 160.274 148.082) (width 0.20828) (layer F.Cu) (net 3))
   (segment (start 150.01 125.626) (end 150.01 123.44) (width 0.20828) (layer B.Cu) (net 3) (tstamp 527EF330))
   (segment (start 151.384 127) (end 150.01 125.626) (width 0.20828) (layer B.Cu) (net 3) (tstamp 527EF32F))
@@ -2870,7 +2871,7 @@
   (segment (start 128.838538 140.77442) (end 125.718359 137.654241) (width 0.6858) (layer F.Cu) (net 59) (tstamp 527EDC43))
   (segment (start 124.485398 136.423398) (end 122.9614 136.423398) (width 0.6858) (layer F.Cu) (net 59) (tstamp 527EDC6D))
   (segment (start 125.716241 137.654241) (end 124.485398 136.423398) (width 0.6858) (layer F.Cu) (net 59) (tstamp 527EDC6C))
-  (segment (start 115.5368 134.058) (end 116.558 134.058) (width 0.3) (layer F.Cu) (net 60) (status 400000))
+  (segment (start 115.5368 134.058) (end 116.558 134.058) (width 0.3) (layer F.Cu) (net 60))
   (segment (start 117 134.5) (end 117 134.4498) (width 0.3) (layer F.Cu) (net 60) (tstamp 527FB0A8))
   (segment (start 116.558 134.058) (end 117 134.5) (width 0.3) (layer F.Cu) (net 60) (tstamp 527FB0A6))
   (segment (start 135.382 138.87958) (end 133.15442 138.87958) (width 0.6858) (layer F.Cu) (net 60))
@@ -2882,7 +2883,7 @@
   (segment (start 117.6782 135.128) (end 117 134.4498) (width 0.6858) (layer F.Cu) (net 60) (tstamp 527EDFAD))
   (segment (start 117 134.4498) (end 116.8654 134.3152) (width 0.6858) (layer F.Cu) (net 60) (tstamp 527FB0A9))
   (segment (start 129.20218 138.87958) (end 135.382 138.87958) (width 0.6858) (layer F.Cu) (net 60))
-  (segment (start 115.5368 133.558) (end 117.308 133.558) (width 0.3) (layer F.Cu) (net 61) (status 400000))
+  (segment (start 115.5368 133.558) (end 117.308 133.558) (width 0.3) (layer F.Cu) (net 61))
   (segment (start 117.75 134) (end 117.75 133.978482) (width 0.3) (layer F.Cu) (net 61) (tstamp 527FB0A3))
   (segment (start 117.308 133.558) (end 117.75 134) (width 0.3) (layer F.Cu) (net 61) (tstamp 527FB09E))
   (segment (start 135.382 137.98042) (end 133.15442 137.98042) (width 0.6858) (layer F.Cu) (net 61))
@@ -3057,6 +3058,11 @@
     (min_thickness 0.254)
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
+      (pts
+        (xy 166.5224 129.4384) (xy 163.65248 129.417871) (xy 163.6522 129.3876)
+      )
+    )
+    (filled_polygon
       (pts
         (xy 166.5224 129.4384) (xy 163.65248 129.417871) (xy 163.6522 129.3876)
       )
