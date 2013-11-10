@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 99.568 119.264999 200.100001 150.100001)
     (thickness 1.6)
-    (drawings 64)
+    (drawings 80)
     (tracks 557)
     (zones 0)
     (modules 56)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (15 F.Cu signal hide)
+    (15 F.Cu signal)
     (2 Inner2.Cu power hide)
     (1 Inner1.Cu power hide)
     (0 B.Cu signal hide)
@@ -59,7 +59,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 2129921)
+      (layerselection 2097152)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -871,10 +871,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C5085)
+  (module testpad (layer F.Cu) (tedit 527FA4A2) (tstamp 527C5085)
     (at 104.5972 143.2306)
     (path /527C48A6)
-    (fp_text reference P1 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P1 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value VA (at 0 -1) (layer F.SilkS) hide
@@ -886,10 +886,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C508A)
+  (module testpad (layer F.Cu) (tedit 527FA500) (tstamp 527C508A)
     (at 182.88 140.462)
     (path /527C488B)
-    (fp_text reference P2 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P2 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value 3V3 (at 0 -1) (layer F.SilkS) hide
@@ -901,10 +901,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C508F)
+  (module testpad (layer F.Cu) (tedit 527FA497) (tstamp 527C508F)
     (at 104.3686 127.9398)
     (path /527C4872)
-    (fp_text reference P3 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P3 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value VD (at 0 -1) (layer F.SilkS) hide
@@ -916,10 +916,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C5094)
+  (module testpad (layer F.Cu) (tedit 527FA4C5) (tstamp 527C5094)
     (at 128.524 147.574)
     (path /526ECC25)
-    (fp_text reference P4 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P4 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value OutA+ (at 0 -1) (layer F.SilkS) hide
@@ -931,10 +931,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C5099)
+  (module testpad (layer F.Cu) (tedit 527FA4C0) (tstamp 527C5099)
     (at 128.524 146.05)
     (path /527C44F9)
-    (fp_text reference P5 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P5 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value OutA- (at 0 -1) (layer F.SilkS) hide
@@ -946,10 +946,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C509E)
+  (module testpad (layer F.Cu) (tedit 527FA4E9) (tstamp 527C509E)
     (at 138.684 144.78)
     (path /527C4508)
-    (fp_text reference P6 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P6 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value RClk+ (at 0 -1) (layer F.SilkS) hide
@@ -961,10 +961,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50A3)
+  (module testpad (layer F.Cu) (tedit 527FA4EE) (tstamp 527C50A3)
     (at 138.684 143.256)
     (path /527C410F)
-    (fp_text reference P7 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P7 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value RClk- (at 0 -1) (layer F.SilkS) hide
@@ -976,10 +976,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50A8)
+  (module testpad (layer F.Cu) (tedit 527FA4F2) (tstamp 527C50A8)
     (at 148.844 141.986)
     (path /527C4517)
-    (fp_text reference P8 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P8 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value RDa+ (at 0 -1) (layer F.SilkS) hide
@@ -991,10 +991,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50AD)
+  (module testpad (layer F.Cu) (tedit 527FA4F8) (tstamp 527C50AD)
     (at 148.844 140.462)
     (path /527C4530)
-    (fp_text reference P9 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P9 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value RDa- (at 0 -1) (layer F.SilkS) hide
@@ -1006,10 +1006,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50B2)
+  (module testpad (layer F.Cu) (tedit 527FA4CA) (tstamp 527C50B2)
     (at 132.842 139.192)
     (path /527C453F)
-    (fp_text reference P10 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P10 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value SDA+ (at 0 -1) (layer F.SilkS) hide
@@ -1021,10 +1021,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50B7)
+  (module testpad (layer F.Cu) (tedit 527FA4CF) (tstamp 527C50B7)
     (at 132.842 137.668)
     (path /527C454E)
-    (fp_text reference P11 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P11 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value SDA- (at 0 -1) (layer F.SilkS) hide
@@ -1036,10 +1036,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50BC)
+  (module testpad (layer F.Cu) (tedit 527FA4DD) (tstamp 527C50BC)
     (at 143.256 136.398)
     (path /527C455D)
-    (fp_text reference P12 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P12 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value CTR+ (at 0 -1) (layer F.SilkS) hide
@@ -1051,10 +1051,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50C1)
+  (module testpad (layer F.Cu) (tedit 527FA4E1) (tstamp 527C50C1)
     (at 143.256 134.874)
     (path /527C456C)
-    (fp_text reference P13 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P13 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value CTR- (at 0 -1) (layer F.SilkS) hide
@@ -1066,10 +1066,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50C6)
+  (module testpad (layer F.Cu) (tedit 527FA4D4) (tstamp 527C50C6)
     (at 132.588 131.318)
     (path /527C457B)
-    (fp_text reference P14 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P14 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value CLK+ (at 0 -1) (layer F.SilkS) hide
@@ -1081,10 +1081,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50CB)
+  (module testpad (layer F.Cu) (tedit 527FA4D9) (tstamp 527C50CB)
     (at 132.588 129.794)
     (path /527C458A)
-    (fp_text reference P15 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P15 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value CLK- (at 0 -1) (layer F.SilkS) hide
@@ -1096,10 +1096,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50D0)
+  (module testpad (layer F.Cu) (tedit 527FA4B8) (tstamp 527C50D0)
     (at 124.714 125.222)
     (path /527C4599)
-    (fp_text reference P16 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P16 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value 160Clk+ (at 0 -1) (layer F.SilkS) hide
@@ -1111,10 +1111,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50D5)
+  (module testpad (layer F.Cu) (tedit 527FA4B2) (tstamp 527C50D5)
     (at 124.714 123.698)
     (path /527C45A8)
-    (fp_text reference P17 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P17 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value 160Clk- (at 0 -1) (layer F.SilkS) hide
@@ -1126,10 +1126,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527EC7C7) (tstamp 527C50DA)
+  (module testpad (layer F.Cu) (tedit 527FA4A7) (tstamp 527C50DA)
     (at 119.634 144.272)
     (path /527C48CE)
-    (fp_text reference P18 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P18 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value RTD+ (at 0 -1) (layer F.SilkS) hide
@@ -1141,10 +1141,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527EC77C) (tstamp 527C50DF)
+  (module testpad (layer F.Cu) (tedit 527FA4AB) (tstamp 527C50DF)
     (at 120.65 143.256)
     (path /527C48DD)
-    (fp_text reference P19 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P19 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value RTD- (at 0 -1) (layer F.SilkS) hide
@@ -1156,10 +1156,10 @@
     )
   )
 
-  (module testpad (layer F.Cu) (tedit 527C4C5A) (tstamp 527C50E4)
+  (module testpad (layer F.Cu) (tedit 527FA505) (tstamp 527C50E4)
     (at 192.786 137.414)
     (path /527C4A35)
-    (fp_text reference P20 (at 0.75 0.75 180) (layer F.SilkS)
+    (fp_text reference P20 (at 0.75 0.75) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_text value GND (at 0 -1) (layer F.SilkS) hide
@@ -2243,6 +2243,46 @@
       (xy 2.794 -2.921) (xy 2.794 -2.921)) (layer F.SilkS) (width 0.00254))
   )
 
+  (gr_text 5% (at 159.258 149.352) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text 5% (at 141.478 149.352) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text .1% (at 154.686 149.352) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text .1% (at 150.876 149.352) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text .1% (at 138.176 149.352) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text GND (at 198.628 139.7) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text GND (at 191.77 137.414) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text 3.3V (at 185.42 141.732) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text VD (at 105.41 126.238) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text VA (at 105.664 144.78) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_line (start 118.364 140.97) (end 118.364 146.558) (angle 90) (layer F.SilkS) (width 0.1524))
+  (gr_line (start 122.936 140.97) (end 118.364 140.97) (angle 90) (layer F.SilkS) (width 0.1524))
+  (gr_line (start 122.936 146.558) (end 122.936 140.97) (angle 90) (layer F.SilkS) (width 0.1524))
+  (gr_line (start 118.364 146.558) (end 122.936 146.558) (angle 90) (layer F.SilkS) (width 0.1524))
+  (gr_text 3.3V (at 122.682 145.796) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
+  (gr_text RTD (at 122.428 141.732) (layer F.SilkS)
+    (effects (font (size 0.762 1.27) (thickness 0.1524)) (justify right))
+  )
   (gr_line (start 146.304 139.192) (end 146.304 143.764) (angle 90) (layer F.SilkS) (width 0.1524))
   (gr_line (start 154.432 139.192) (end 146.304 139.192) (angle 90) (layer F.SilkS) (width 0.1524))
   (gr_line (start 154.432 143.764) (end 154.432 139.192) (angle 90) (layer F.SilkS) (width 0.1524))
