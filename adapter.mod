@@ -1,9 +1,10 @@
-PCBNEW-LibModule-V1  Fri 08 Nov 2013 03:28:46 AM CET
+PCBNEW-LibModule-V1  Sun 10 Nov 2013 04:37:05 PM CET
 # encoding utf-8
 Units mm
 $INDEX
 SCSI68
 jumper
+lochM3
 testpad
 testpad2
 $EndINDEX
@@ -536,6 +537,22 @@ Ne 0 ""
 Po 2.5 0
 $EndPAD
 $EndMODULE jumper
+$MODULE lochM3
+Po 0 0 0 15 527FA817 00000000 ~~
+Li lochM3
+Sc 0
+AR 
+Op 0 0 0
+T0 0.15 -0.5 1 1 0 0.15 N I 21 N "loch"
+T1 0.05 0.9 1 1 0 0.15 N I 21 N "M3"
+$PAD
+Sh "1" C 3.2 3.2 0 0 0
+Dr 3.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE lochM3
 $MODULE testpad
 Po 0 0 0 15 527C4C5A 00000000 ~~
 Li testpad
