@@ -61,7 +61,7 @@
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 31490055)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -80,7 +80,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 2)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
