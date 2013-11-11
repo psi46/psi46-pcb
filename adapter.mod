@@ -1,7 +1,8 @@
-PCBNEW-LibModule-V1  Sun 10 Nov 2013 07:22:33 PM CET
+PCBNEW-LibModule-V1  Mon 11 Nov 2013 11:17:27 PM CET
 # encoding utf-8
 Units mm
 $INDEX
+HVarrow
 SCSI68
 jumper
 lochM2
@@ -9,6 +10,21 @@ lochM3
 testpad
 testpad2
 $EndINDEX
+$MODULE HVarrow
+Po 0 0 0 15 52815757 00000000 ~~
+Li HVarrow
+Sc 0
+AR 
+Op 0 0 0
+T0 0.3 2.8 1 1 0 0.15 N I 21 N "HVarrow"
+T1 1.8 0 1 1 0 0.15 N I 21 N ""
+DS -0.6 0.8 0.5 -0.4 0.15 21
+DS 0.5 -0.4 -0.2 -0.4 0.15 21
+DS -0.2 -0.4 0.7 -1.4 0.15 21
+DS -0.6 0.8 -0.2 0.7 0.15 21
+DS -0.6 0.8 -0.5 0.3 0.15 21
+T2 0 1.6 1.016 1.016 0 0.1524 N V 21 N "HV"
+$EndMODULE HVarrow
 $MODULE SCSI68
 Po 0 0 0 15 527FCDF8 00000000 ~~
 Li SCSI68
