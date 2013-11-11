@@ -36,10 +36,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Adaptercard DTB to FPix module"
-Date "26 Oct 2013"
-Rev "0"
+Date "08 Nov 2013"
+Rev "1.1"
 Comp "University of Nebraska, Lincoln"
-Comment1 ""
+Comment1 "F. Meier"
 Comment2 ""
 Comment3 ""
 Comment4 ""
