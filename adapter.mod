@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  Tue 12 Nov 2013 04:22:56 AM CET
+PCBNEW-LibModule-V1  Tue 12 Nov 2013 05:01:58 AM CET
 # encoding utf-8
 Units mm
 $INDEX
 HVarrow
 SCSI68
 SCSI68up
+impedtext
 jumper
 lochM2
 lochM3
@@ -1083,6 +1084,21 @@ Ne 0 ""
 Po 28.956 0
 $EndPAD
 $EndMODULE SCSI68up
+$MODULE impedtext
+Po 0 0 0 15 5281A82A 00000000 ~~
+Li impedtext
+Sc 0
+AR 
+Op 0 0 0
+T0 3.445 2.7525 0.2 0.2 0 0.05 N I 21 N "impedtext"
+T1 1.6 1.6 1 1 0 0.15 N V 21 N "VAL**"
+T2 -3.4 -1.8 1 1 0 0.15 N V 21 N "-"
+T2 -3.4 1.6 1 1 0 0.15 N V 21 N "+"
+DS -4 2.4 -4 -2.4 0.15 21
+DS -4 -2.4 4.2 -2.4 0.15 21
+DS 4.2 -2.4 4.2 2.4 0.15 21
+DS 4.2 2.4 -4 2.4 0.15 21
+$EndMODULE impedtext
 $MODULE jumper
 Po 0 0 0 15 526ED35C 00000000 ~~
 Li jumper
