@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 09 Nov 2013 07:26:41 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 15 Nov 2013 09:15:17 PM CET
 
 BeginCmp
 TimeStamp = /526EC548;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /526C1593;
 Reference = J1;
 ValeurCmp = CONN-SCSI68;
-IdModule  = SCSI68;
+IdModule  = SCSI68up;
 EndCmp
 
 BeginCmp
