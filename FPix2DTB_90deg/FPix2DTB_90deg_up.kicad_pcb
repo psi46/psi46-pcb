@@ -25,9 +25,9 @@
     (15 F.Cu signal)
     (2 Inner2.Cu power hide)
     (1 Inner1.Cu power)
-    (0 B.Cu signal hide)
+    (0 B.Cu signal)
     (20 B.SilkS user hide)
-    (21 F.SilkS user hide)
+    (21 F.SilkS user)
     (22 B.Mask user hide)
     (23 F.Mask user hide)
     (24 Dwgs.User user)
@@ -609,11 +609,11 @@
     )
   )
 
-  (module SM0603 (layer F.Cu) (tedit 52825DCA) (tstamp 5286A335)
+  (module SM0603 (layer F.Cu) (tedit 5286DD98) (tstamp 5286A335)
     (at 136.144 116.078)
     (path /526C35B3)
     (attr smd)
-    (fp_text reference R23 (at -0.03556 -1.0414) (layer F.SilkS)
+    (fp_text reference R23 (at -2.032 0) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value "10k 5%" (at 0 0) (layer F.SilkS) hide
@@ -638,11 +638,11 @@
     )
   )
 
-  (module SM0603 (layer F.Cu) (tedit 52825E0A) (tstamp 5282505B)
+  (module SM0603 (layer F.Cu) (tedit 5286DDBE) (tstamp 5282505B)
     (at 147.066 115.824)
     (path /526C35C2)
     (attr smd)
-    (fp_text reference R24 (at 1.96088 0.02286) (layer F.SilkS)
+    (fp_text reference R24 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value "10k 5%" (at 0 0) (layer F.SilkS) hide
@@ -667,11 +667,11 @@
     )
   )
 
-  (module SM0603 (layer F.Cu) (tedit 52825DC3) (tstamp 5286A340)
+  (module SM0603 (layer F.Cu) (tedit 5286DDA0) (tstamp 5286A340)
     (at 136.144 113.792)
     (path /526C35E0)
     (attr smd)
-    (fp_text reference R25 (at -0.01524 1.05156) (layer F.SilkS)
+    (fp_text reference R25 (at -2.032 0) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value "10k 0.1%" (at 0 0) (layer F.SilkS) hide
@@ -2067,7 +2067,7 @@
       (xy -1.78562 -1.44018)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module SCSI68up (layer F.Cu) (tedit 52819F03) (tstamp 528685C6)
+  (module SCSI68up (layer F.Cu) (tedit 5286DD3B) (tstamp 528685C6)
     (at 201 130)
     (path /526C1593)
     (fp_text reference J1 (at 0.635 -6.6675) (layer F.SilkS)
@@ -2110,7 +2110,7 @@
     (fp_line (start -31.9405 5.1562) (end -31.9405 -5.1562) (layer F.SilkS) (width 0.15))
     (fp_line (start -31.9405 -5.1562) (end 31.9405 -5.1562) (layer F.SilkS) (width 0.15))
     (fp_line (start -31.9405 5.1562) (end 31.9405 5.1562) (layer F.SilkS) (width 0.15))
-    (fp_text user text (at 1.905 -29.5275) (layer F.SilkS)
+    (fp_text user text (at 1.905 -29.5275) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 20.955 -0.9525) (size 1.5 1.5) (drill 0.86)
@@ -3039,8 +3039,8 @@
   (segment (start 112.15 127.75) (end 111.264 127.75) (width 0.3) (layer F.Cu) (net 8))
   (segment (start 111.264 127.75) (end 110.25 127.75) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286BF86))
   (segment (start 112.15 127.25) (end 111.0782 127.25) (width 0.3) (layer F.Cu) (net 8))
-  (segment (start 102.5 127.25) (end 101.25 126) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286B391))
-  (via (at 101.25 126) (size 0.889) (layers F.Cu B.Cu) (net 8))
+  (segment (start 102.5 127.25) (end 101.6 125.984) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286B391))
+  (via (at 101.6 125.984) (size 0.889) (layers F.Cu B.Cu) (net 8))
   (segment (start 111.0782 127.25) (end 102.5 127.25) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286BF82))
   (segment (start 226.4918 144.5768) (end 228.6254 144.5768) (width 0.3) (layer F.Cu) (net 8))
   (via (at 228.8032 144.7546) (size 0.889) (layers F.Cu B.Cu) (net 8))
@@ -3075,8 +3075,8 @@
   (via (at 104 129) (size 0.889) (layers F.Cu B.Cu) (net 8))
   (segment (start 104.25 128.75) (end 104 129) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286B378))
   (segment (start 110.25 127.75) (end 102.5 127.75) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286BFDA))
-  (via (at 101.25 129) (size 0.889) (layers F.Cu B.Cu) (net 8))
-  (segment (start 102.5 127.75) (end 101.25 129) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286B361))
+  (via (at 101.6 129.032) (size 0.889) (layers F.Cu B.Cu) (net 8))
+  (segment (start 102.5 127.75) (end 101.6 129.032) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286B361))
   (segment (start 220.1418 145.8468) (end 218.6686 145.8468) (width 0.3) (layer F.Cu) (net 8))
   (via (at 217.6907 146.8247) (size 0.889) (layers F.Cu B.Cu) (net 8))
   (segment (start 218.6686 145.8468) (end 217.6907 146.8247) (width 0.3) (layer F.Cu) (net 8) (tstamp 5286B1A2))
@@ -3760,12 +3760,12 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 100.75 129.5) (xy 104.5 129.5) (xy 104.5 125.5) (xy 100.75 125.5)
+        (xy 101.004 129.5) (xy 104.5 129.5) (xy 104.5 125.5) (xy 101.004 125.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 104.373 129.373) (xy 100.877 129.373) (xy 100.877 125.627) (xy 104.373 125.627) (xy 104.373 129.373)
+        (xy 104.373 129.373) (xy 101.131 129.373) (xy 101.131 125.627) (xy 104.373 125.627) (xy 104.373 129.373)
       )
     )
   )
