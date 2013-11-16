@@ -1,4 +1,4 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";""
 1;"C1";"SM0603";1;"100n";;;
 2;"C3,C4";"SM0603";2;"0.1u";;;
 3;"P2";"testpad";1;"3V3";;;
