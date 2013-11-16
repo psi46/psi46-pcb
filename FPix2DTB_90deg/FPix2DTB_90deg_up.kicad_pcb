@@ -13,8 +13,16 @@
   )
 
   (page A4)
+  (title_block
+    (title "FPix to DTB adapter")
+    (date "16 Nov 2013")
+    (rev 1.1)
+    (company "University of Nebraska - Lincoln")
+    (comment 1 "F. Meier")
+  )
+
   (layers
-    (15 F.Cu signal hide)
+    (15 F.Cu signal)
     (2 Inner2.Cu power hide)
     (1 Inner1.Cu power)
     (0 B.Cu signal hide)
