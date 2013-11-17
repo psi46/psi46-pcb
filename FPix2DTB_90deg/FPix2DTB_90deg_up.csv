@@ -1,1 +1,11 @@
-Id,Designator,Package,Quantity,Designation,Supplier,Ref,Comment1,"C1,C3,C4",SM0603,3,100n,Digi-key,1276-1011-1-ND,2,C2,SM0603,1,1u,Digi-key,587-1248-1-ND,3,J1,SCSI68up,1,CONN-SCSI68,Digi-key,A31826-ND,4,J2,SMK20,1,CONN-SMK20,SMK,,"Fermilab, Sergey Los"5,JP1,jumper,1,JUMPER,,,A short piece of wire to make a little bridge to connect a scope probe to GND6,"R16,R18,R21,R19,R15,R13,R12,R10,R9,R7,R6,R4,R3,R1",SM0402,14,39,Digi-key,P39JCT-ND,7,"R2,R5,R8,R11,R14,R20,R17",SM0402,7,91,Digi-key,P91JCT-ND,8,"R22,R25,R26",SM0603,3,10k 0.1%,Digi-key,P10KDBCT-ND,9,"R23,R24",SM0603,2,10k 5%,Digi-key,P10KGCT-ND,10,U1,SO8N,1,24C02,Digi-key,AT24C02C-SSHM-T SL901CT-ND,
+Id,Designator,Package,Quantity,Designation,Supplier,Ref,Comment
+1,"C1,C3,C4",SM0603,3,100n,Digi-key,1276-1011-1-ND,
+2,C2,SM0603,1,1u,Digi-key,587-1248-1-ND,
+3,J1,SCSI68up,1,CONN-SCSI68,Digi-key,A31826-ND,
+4,J2,SMK20,1,CONN-SMK20,SMK,,"Fermilab, Sergey Los"
+5,JP1,jumper,1,JUMPER,,,A short piece of wire to make a little bridge to connect a scope probe to GND
+6,"R16,R18,R21,R19,R15,R13,R12,R10,R9,R7,R6,R4,R3,R1",SM0402,14,39,Digi-key,P39JCT-ND,
+7,"R2,R5,R8,R11,R14,R20,R17",SM0402,7,91,Digi-key,P91JCT-ND,
+8,"R22,R25,R26",SM0603,3,10k 0.1%,Digi-key,P10KDBCT-ND,
+9,"R23,R24",SM0603,2,10k 5%,Digi-key,P10KGCT-ND,
+10,U1,SO8N,1,24C02,Digi-key,AT24C02C-SSHM-T SL901CT-ND,
