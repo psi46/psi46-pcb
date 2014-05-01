@@ -1,5 +1,5 @@
-update=Sun 17 Nov 2013 03:44:39 PM CET
-last_client=eeschema
+update=Thu 01 May 2014 01:32:23 PM CDT
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=FPix2DTB_90deg.net
@@ -20,7 +20,6 @@ DrawSegmentWidth="    0.152400"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -37,14 +36,12 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=/home/frank/kicad/adapter
-LibName18=/home/frank/kicad/cms
-LibName19=/home/frank/kicad/smk
-LibName20=Nlogo
-LibName21=CMDlogo
+LibName17=/home/frank/Documents/PCB/adapter
+LibName18=/home/frank/Documents/PCB/harwinShortLnk
+LibDir=../FPix2DTB_90deg
 [eeschema]
 version=1
-LibDir=
+LibDir=../FPix2DTB_90deg;../../PCB
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -82,3 +79,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/frank/kicad/conn-scsi68
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
