@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  Mon 11 Nov 2013 11:06:26 PM CET
+PCBNEW-LibModule-V1  Thu 01 May 2014 02:10:45 PM CDT
 # encoding utf-8
 Units mm
 $INDEX
 SMK20
+SMK20hv
 $EndINDEX
 $MODULE SMK20
 Po 0 0 0 15 52815460 00000000 ~~
@@ -339,4 +340,311 @@ Ne 0 ""
 Po 6.925 -0.6
 $EndPAD
 $EndMODULE SMK20
+$MODULE SMK20hv
+Po 0 0 0 15 53629C2D 00000000 ~~
+Li SMK20hv
+Sc 0
+AR 
+Op 0 0 0
+T0 0.06 -1.1 1 1 0 0.15 N V 21 N "SMK20hv"
+T1 -0.19 0.9 1 1 0 0.15 N I 21 N "J**"
+DS -1.4 4.4 -1 4.4 0.15 21
+DS -2.6 4.4 -2.2 4.4 0.15 21
+DS -3.8 4.4 -3.4 4.4 0.15 21
+DS -5 4.4 -4.6 4.4 0.15 21
+DS -6.2 4.4 -5.8 4.4 0.15 21
+DS -7.7 4.4 -7 4.4 0.15 21
+DS 7 4.4 7.7 4.4 0.15 21
+DS 5.8 4.4 6.2 4.4 0.15 21
+DS 4.6 4.4 5 4.4 0.15 21
+DS -7.7 4.4 -7.7 3.9 0.15 21
+DS 7.7 4.4 7.7 3.9 0.15 21
+DS 3.4 4.4 3.8 4.4 0.15 21
+DS 2.2 4.4 2.6 4.4 0.15 21
+DS 1 4.4 1.4 4.4 0.15 21
+DS -0.2 4.4 0.2 4.4 0.15 21
+DA 2.5 -3.7 0.4 -5.9 900 0.15 21
+DA -2.2 -8.4 0.4 -5.8 900 0.15 21
+DS 6.04 0.85 6.04 -1.65 0.15 21
+DS 6.03 -1.65 5.29 -1.65 0.15 21
+DS 5.29 -2.33 5.29 -1.64 0.15 21
+DS 5.26 -2.4 4.77 -3.86 0.15 21
+DS 4.77 -3.87 4.77 -5.71 0.15 21
+DS -5.26 -2.4 -4.77 -3.86 0.15 21
+DS -4.77 -3.86 -4.77 -5.7 0.15 21
+DS -6.03 -1.64 -5.29 -1.64 0.15 21
+DS -5.29 -2.33 -5.29 -1.64 0.15 21
+DS -6.04 -1.65 -6.04 0.85 0.15 21
+DS -6.04 0.87 6.03 0.87 0.15 21
+DS -7.65 3.05 7.7 3.05 0.15 21
+DS 7.7 3.05 7.7 -3.05 0.15 21
+DS 7.7 -3.05 -7.65 -3.05 0.15 21
+DS -7.65 -3.05 -7.65 3.05 0.15 21
+$PAD
+Sh "1" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.75 2.85
+$EndPAD
+$PAD
+Sh "2" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.75 -2.85
+$EndPAD
+$PAD
+Sh "3" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.25 2.85
+$EndPAD
+$PAD
+Sh "4" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.25 -2.85
+$EndPAD
+$PAD
+Sh "5" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.75 2.85
+$EndPAD
+$PAD
+Sh "6" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.75 -2.85
+$EndPAD
+$PAD
+Sh "7" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.25 2.85
+$EndPAD
+$PAD
+Sh "8" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.25 -2.85
+$EndPAD
+$PAD
+Sh "9" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.75 2.85
+$EndPAD
+$PAD
+Sh "10" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.75 -2.85
+$EndPAD
+$PAD
+Sh "11" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.25 2.85
+$EndPAD
+$PAD
+Sh "12" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.25 -2.85
+$EndPAD
+$PAD
+Sh "13" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 2.85
+$EndPAD
+$PAD
+Sh "14" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 -2.85
+$EndPAD
+$PAD
+Sh "15" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 2.85
+$EndPAD
+$PAD
+Sh "16" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -2.85
+$EndPAD
+$PAD
+Sh "19" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 2.85
+$EndPAD
+$PAD
+Sh "20" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -2.85
+$EndPAD
+$PAD
+Sh "21" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 2.85
+$EndPAD
+$PAD
+Sh "22" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -2.85
+$EndPAD
+$PAD
+Sh "25" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 2.85
+$EndPAD
+$PAD
+Sh "26" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -2.85
+$EndPAD
+$PAD
+Sh "27" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 2.85
+$EndPAD
+$PAD
+Sh "28" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 -2.85
+$EndPAD
+$PAD
+Sh "29" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 2.85
+$EndPAD
+$PAD
+Sh "30" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 -2.85
+$EndPAD
+$PAD
+Sh "31" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.75 2.85
+$EndPAD
+$PAD
+Sh "32" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.75 -2.85
+$EndPAD
+$PAD
+Sh "33" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.25 2.85
+$EndPAD
+$PAD
+Sh "34" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.25 -2.85
+$EndPAD
+$PAD
+Sh "35" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.75 2.85
+$EndPAD
+$PAD
+Sh "36" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.75 -2.85
+$EndPAD
+$PAD
+Sh "37" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.25 2.85
+$EndPAD
+$PAD
+Sh "38" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.25 -2.85
+$EndPAD
+$PAD
+Sh "39" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.75 2.85
+$EndPAD
+$PAD
+Sh "40" R 0.3 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.75 -2.85
+$EndPAD
+$PAD
+Sh "41" R 1.35 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.93 -0.6
+$EndPAD
+$PAD
+Sh "42" R 1.35 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.925 -0.6
+$EndPAD
+$EndMODULE SMK20hv
 $EndLIBRARY

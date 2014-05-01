@@ -1,4 +1,4 @@
-update=Thu 01 May 2014 01:32:23 PM CDT
+update=Thu 01 May 2014 02:01:39 PM CDT
 last_client=cvpcb
 [pcbnew]
 version=1
@@ -38,6 +38,7 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=/home/frank/Documents/PCB/adapter
 LibName18=/home/frank/Documents/PCB/harwinShortLnk
+LibName19=/home/frank/Documents/PCB/smk
 LibDir=../FPix2DTB_90deg
 [eeschema]
 version=1
