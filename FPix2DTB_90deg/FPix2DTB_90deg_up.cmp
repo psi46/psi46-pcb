@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 01 May 2014 02:02:15 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 01 May 2014 02:13:08 PM CDT
 
 BeginCmp
 TimeStamp = /526EC548;
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /526C1CFC;
 Reference = J2;
 ValeurCmp = CONN-SMK20;
-IdModule  = SMK20;
+IdModule  = SMK20hv;
 EndCmp
 
 BeginCmp
