@@ -157,7 +157,7 @@ F 3 "" H 3700 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6700 2750 0    60   Input ~ 0
-TBM_Out_A+
+TBM_OutA+
 Text Notes 7550 1900 0    60   ~ 0
 To adapter board
 Text Notes 3150 1950 0    60   ~ 0
@@ -167,7 +167,7 @@ Text Notes 3100 2100 0    60   ~ 0
 Text Notes 7600 2050 0    60   ~ 0
 (new pin out)
 Text GLabel 6700 2850 0    60   Input ~ 0
-TBM_Out_A-
+TBM_OutA-
 Text GLabel 6650 3000 0    60   Output ~ 0
 VA
 Text GLabel 6700 3150 0    60   Input ~ 0
