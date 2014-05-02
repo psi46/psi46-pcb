@@ -1,12 +1,31 @@
-update=Thu 01 May 2014 09:06:49 PM CDT
-last_client=cvpcb
+update=Thu 01 May 2014 09:10:45 PM CDT
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
 [pcbnew]
+version=1
+LastNetListRead=CableAdapter.net
+UseCmpFile=1
+PadDrill="    0.600000"
+PadDrillOvalY="    0.600000"
+PadSizeH="    1.500000"
+PadSizeV="    1.500000"
+PcbTextSizeV="    1.500000"
+PcbTextSizeH="    1.500000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.000000"
+ModuleTextSizeH="    1.000000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -23,5 +42,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=smk
-LibDir=../../PCB;../FPix2DTB_90deg
+LibName17=/home/frank/Documents/PCB/smk
