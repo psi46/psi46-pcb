@@ -1,4 +1,4 @@
-update=Fri 02 May 2014 10:10:18 AM CDT
+update=Fri 02 May 2014 10:25:41 AM CDT
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -45,3 +45,4 @@ LibName16=valves
 LibName17=/home/frank/Documents/PCB/smk
 LibName18=Nlogo
 LibName19=CMDlogo
+LibName20=/home/frank/Documents/PCB/adapter
