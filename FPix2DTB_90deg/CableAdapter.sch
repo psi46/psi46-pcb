@@ -35,11 +35,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "noname.sch"
+Title "Cable Adapter"
 Date "2 may 2014"
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1"
+Comp "University of Nebraska-Lincoln"
+Comment1 "Adapter to use new module-to-DTB adapter with old HDI"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -542,4 +542,6 @@ Connection ~ 2550 4150
 Connection ~ 2550 4250
 Connection ~ 2550 4550
 Connection ~ 2550 4650
+Text Notes 3450 5750 0    60   ~ 0
+Two signals (RClk and 160MHzClk) are nor longer present on new HDI\nTf. they are not routed on the new adapter card\nSo we terminate them here (60 Ohms would match the connector saver cable's impedance).
 $EndSCHEMATC
