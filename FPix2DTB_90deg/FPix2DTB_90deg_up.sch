@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:conn-scsi68
+LIBS:FPix2DTB_90deg_up-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Adaptercard DTB to FPix module"
-Date "1 may 2014"
+Date "2 may 2014"
 Rev "2.0"
 Comp "University of Nebraska, Lincoln"
 Comment1 "F. Meier"
@@ -511,7 +512,7 @@ NoConn ~ 2800 4200
 NoConn ~ 2800 3600
 NoConn ~ 2800 3700
 NoConn ~ 1800 2200
-Text GLabel 1300 3400 0    60   Input ~ 0
+Text GLabel 850  3400 0    60   Input ~ 0
 3V3
 Text GLabel 3200 6550 2    60   Input ~ 0
 3V3
@@ -720,13 +721,13 @@ $EndComp
 $Comp
 L TST P9
 U 1 1 527C488B
-P 1350 3400
-F 0 "P9" H 1350 3700 40  0000 C CNN
-F 1 "3V3" H 1350 3650 30  0000 C CNN
-F 2 "testpad" H 1350 3400 60  0000 C CNN
-F 3 "" H 1350 3400 60  0000 C CNN
-	1    1350 3400
-	1    0    0    -1  
+P 900 3500
+F 0 "P9" H 900 3800 40  0000 C CNN
+F 1 "3V3" H 900 3750 30  0000 C CNN
+F 2 "testpad" H 900 3500 60  0000 C CNN
+F 3 "" H 900 3500 60  0000 C CNN
+	1    900  3500
+	-1   0    0    1   
 $EndComp
 $Comp
 L TST P4
@@ -1033,8 +1034,6 @@ Connection ~ 1150 6750
 Wire Wire Line
 	3100 900  3100 5100
 Wire Wire Line
-	1800 3400 1300 3400
-Wire Wire Line
 	8600 800  10600 800 
 Wire Wire Line
 	1500 1700 1500 5100
@@ -1074,7 +1073,6 @@ Connection ~ 6000 2400
 Connection ~ 6200 2900
 Connection ~ 3300 1900
 Connection ~ 1300 3600
-Connection ~ 1350 3400
 Connection ~ 6000 3200
 Connection ~ 6200 3700
 Connection ~ 6000 4000
@@ -1343,4 +1341,22 @@ NoConn ~ 2800 3100
 NoConn ~ 2800 3300
 NoConn ~ 2800 3400
 Connection ~ 3100 4800
+$Comp
+L FUSE F1
+U 1 1 5363F32E
+P 1200 3400
+F 0 "F1" H 1300 3450 40  0000 C CNN
+F 1 "FUSE" H 1100 3350 40  0000 C CNN
+F 2 "SM0603" H 1200 3400 60  0000 C CNN
+F 3 "~" H 1200 3400 60  0000 C CNN
+	1    1200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3400 1800 3400
+Wire Wire Line
+	950  3400 850  3400
+Wire Wire Line
+	900  3500 900  3400
+Connection ~ 900  3400
 $EndSCHEMATC
