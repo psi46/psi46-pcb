@@ -1,4 +1,4 @@
-update=Thu 01 May 2014 09:10:45 PM CDT
+update=Fri 02 May 2014 10:10:18 AM CDT
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -43,3 +43,5 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=/home/frank/Documents/PCB/smk
+LibName18=Nlogo
+LibName19=CMDlogo
