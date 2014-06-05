@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Thu 05 Jun 2014 07:44:49 AM CDT
+PCBNEW-BOARD Version 2 date Thu 05 Jun 2014 09:19:46 AM CDT
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -3617,7 +3617,7 @@ $EndDRAWSEGMENT
 $TEXTPCB
 Te "This adapter is compatible to Rev. C HDI."
 nl "Operating older versions without a converter"
-nl "may lead to shortcut and overheating."
+nl "may lead to a short and overheating."
 Po 105 64.75 1 0.762 0.1905 0
 De 21 1 0 Normal L C
 $EndTEXTPCB
