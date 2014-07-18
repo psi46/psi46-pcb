@@ -1,5 +1,5 @@
-update=Fri 02 May 2014 11:45:55 AM CDT
-last_client=pcbnew
+update=Mon 07 Jul 2014 03:44:25 PM CDT
+last_client=kicad
 [eeschema]
 version=1
 LibDir=../FPix2DTB_90deg;../../PCB
@@ -87,3 +87,5 @@ LibName18=/home/frank/Documents/PCB/harwinShortLnk
 LibName19=/home/frank/Documents/PCB/smk
 LibName20=CMDlogo
 LibName21=Nlogo
+[general]
+version=1
