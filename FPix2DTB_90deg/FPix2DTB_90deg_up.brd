@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Tue 17 Jun 2014 03:51:05 PM CDT
+PCBNEW-BOARD Version 2 date Thu 17 Jul 2014 09:54:02 PM CDT
 
-# Created by Pcbnew(2014-jan-25)-product
+# Created by Pcbnew(2013-jul-07)-stable
 
 $GENERAL
 encoding utf-8
@@ -22,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "5 jun 2014"
+Date "18 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -63,10 +63,9 @@ PadSize 0.39878 0.59944
 PadDrill 0
 Pad2MaskClearance 0
 SolderMaskMinWidth 0
-GridOrigin 0 0
 AuxiliaryAxisOrg 0 0
-VisibleElements FFFFFBBF
-PcbPlotParams (pcbplotparams (layerselection 11141120) (usegerberextensions false) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
+VisibleElements 7FFFFFFF
+PcbPlotParams (pcbplotparams (layerselection 11141120) (usegerberextensions false) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -3613,7 +3612,7 @@ De 21 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "!"
-Po 53.0352 91.0336 2.54 2.54 0.3 900
+Po 53.2892 91.0336 2.54 2.54 0.3 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -3643,7 +3642,7 @@ $TEXTPCB
 Te "This adapter is compatible to Rev. C HDI."
 nl "Operating older versions without a converter"
 nl "may lead to a short and overheating."
-Po 105.156 66.04 1 0.762 0.1905 0
+Po 105.1052 64.7192 1 0.762 0.1905 0
 De 21 1 0 Normal L C
 $EndTEXTPCB
 $TEXTPCB
