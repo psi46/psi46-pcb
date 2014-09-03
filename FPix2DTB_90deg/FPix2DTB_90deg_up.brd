@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Thu 17 Jul 2014 09:54:02 PM CDT
+PCBNEW-BOARD Version 2 date Wed 03 Sep 2014 02:43:34 PM CDT
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -7,7 +7,7 @@ encoding utf-8
 Units mm
 LayerCount 4
 EnabledLayers 11AA8007
-VisibleLayers 11AA8001
+VisibleLayers 11AA0000
 Links 137
 NoConn 0
 Di 39.639417 52.119567 159.075303 108.524
@@ -22,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "18 jul 2014"
+Date "3 sep 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -33,10 +33,10 @@ $EndSHEETDESCR
 
 $SETUP
 Layers 4
-Layer[0] B.Cu signal
-Layer[1] Inner1.Cu power
-Layer[2] Inner2.Cu power
-Layer[15] F.Cu signal
+Layer[0] B.CuL4 signal
+Layer[1] Inner2.CuL3 power
+Layer[2] Inner1.CuL2 power
+Layer[15] F.CuL1 signal
 TrackWidth 0.20828
 TrackWidthList 0.3
 TrackClearence 0.2
