@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 09 Jul 2013 09:55:54 AM CEST
+
+BeginCmp
+TimeStamp = /51DBB511;
+Reference = J1;
+ValeurCmp = 40PIN_CONN;
+IdModule  = 40PIN_1MM_PITCH;
+EndCmp
+
+EndListe

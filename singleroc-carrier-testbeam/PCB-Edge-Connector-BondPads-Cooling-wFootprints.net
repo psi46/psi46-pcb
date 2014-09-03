@@ -1,0 +1,203 @@
+# EESchema Netlist Version 1.1 created  Tue 09 Jul 2013 10:40:00 AM CEST
+(
+ ( /51DBC43A $noname  38PIN_CONN1 38PIN_CONN {Lib=38PIN_CONN}
+  (    2 /p2 )
+  (    3 /p3 )
+  (    4 /p4 )
+  (    5 /p5 )
+  (    6 /p6 )
+  (    7 /p7 )
+  (    8 /p8 )
+  (    9 /p9 )
+  (   10 /p10 )
+  (   11 /p11 )
+  (   12 /p12 )
+  (   13 /p13 )
+  (   14 /p14 )
+  (   15 /p15 )
+  (   16 /p16 )
+  (   17 /p17 )
+  (   18 /p18 )
+  (   19 /p19 )
+  (   20 /p20 )
+  (   21 /p21 )
+  (   22 /p22 )
+  (   23 /p23 )
+  (   24 /p24 )
+  (   25 /p25 )
+  (   26 /p26 )
+  (   27 /p27 )
+  (   28 /p28 )
+  (   29 /p29 )
+  (   30 /p30 )
+  (   31 /p31 )
+  (   32 /p32 )
+  (   33 /p33 )
+  (   34 /p34 )
+  (   35 /p35 )
+  (   36 /p36 )
+  (   37 /p37 )
+  (   38 /p38 )
+  (   39 /p39 )
+ )
+ ( /51DBC431 $noname  40PIN_1MM_PITCH1 40PIN_CONN {Lib=40PIN_CONN}
+  (    1 GND )
+  (    2 /p2 )
+  (    3 /p3 )
+  (    4 /p4 )
+  (    5 /p5 )
+  (    6 /p6 )
+  (    7 /p7 )
+  (    8 /p8 )
+  (    9 /p9 )
+  (   10 /p10 )
+  (   11 /p11 )
+  (   12 /p12 )
+  (   13 /p13 )
+  (   14 /p14 )
+  (   15 /p15 )
+  (   16 /p16 )
+  (   17 /p17 )
+  (   18 /p18 )
+  (   19 /p19 )
+  (   20 /p20 )
+  (   21 /p21 )
+  (   22 /p22 )
+  (   23 /p23 )
+  (   24 /p24 )
+  (   25 /p25 )
+  (   26 /p26 )
+  (   27 /p27 )
+  (   28 /p28 )
+  (   29 /p29 )
+  (   30 /p30 )
+  (   31 /p31 )
+  (   32 /p32 )
+  (   33 /p33 )
+  (   34 /p34 )
+  (   35 /p35 )
+  (   36 /p36 )
+  (   37 /p37 )
+  (   38 /p38 )
+  (   39 /p39 )
+  (   40 ? )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/p11" "p11"
+ 38PIN_CONN1 11
+ 40PIN_1MM_PITCH1 11
+Net 2 "/p9" "p9"
+ 40PIN_1MM_PITCH1 9
+ 38PIN_CONN1 9
+Net 3 "/p6" "p6"
+ 38PIN_CONN1 6
+ 40PIN_1MM_PITCH1 6
+Net 4 "/p4" "p4"
+ 38PIN_CONN1 4
+ 40PIN_1MM_PITCH1 4
+Net 5 "/p2" "p2"
+ 38PIN_CONN1 2
+ 40PIN_1MM_PITCH1 2
+Net 6 "/p13" "p13"
+ 38PIN_CONN1 13
+ 40PIN_1MM_PITCH1 13
+Net 7 "/p14" "p14"
+ 40PIN_1MM_PITCH1 14
+ 38PIN_CONN1 14
+Net 8 "/p15" "p15"
+ 40PIN_1MM_PITCH1 15
+ 38PIN_CONN1 15
+Net 9 "/p16" "p16"
+ 40PIN_1MM_PITCH1 16
+ 38PIN_CONN1 16
+Net 10 "/p17" "p17"
+ 40PIN_1MM_PITCH1 17
+ 38PIN_CONN1 17
+Net 11 "/p18" "p18"
+ 40PIN_1MM_PITCH1 18
+ 38PIN_CONN1 18
+Net 12 "/p28" "p28"
+ 38PIN_CONN1 28
+ 40PIN_1MM_PITCH1 28
+Net 13 "/p19" "p19"
+ 38PIN_CONN1 19
+ 40PIN_1MM_PITCH1 19
+Net 14 "/p30" "p30"
+ 38PIN_CONN1 30
+ 40PIN_1MM_PITCH1 30
+Net 16 "/p21" "p21"
+ 40PIN_1MM_PITCH1 21
+ 38PIN_CONN1 21
+Net 17 "/p31" "p31"
+ 38PIN_CONN1 31
+ 40PIN_1MM_PITCH1 31
+Net 18 "/p22" "p22"
+ 38PIN_CONN1 22
+ 40PIN_1MM_PITCH1 22
+Net 19 "/p32" "p32"
+ 38PIN_CONN1 32
+ 40PIN_1MM_PITCH1 32
+Net 20 "/p23" "p23"
+ 40PIN_1MM_PITCH1 23
+ 38PIN_CONN1 23
+Net 21 "/p33" "p33"
+ 40PIN_1MM_PITCH1 33
+ 38PIN_CONN1 33
+Net 22 "/p24" "p24"
+ 38PIN_CONN1 24
+ 40PIN_1MM_PITCH1 24
+Net 23 "/p34" "p34"
+ 38PIN_CONN1 34
+ 40PIN_1MM_PITCH1 34
+Net 24 "/p20" "p20"
+ 38PIN_CONN1 20
+ 40PIN_1MM_PITCH1 20
+Net 25 "/p25" "p25"
+ 38PIN_CONN1 25
+ 40PIN_1MM_PITCH1 25
+Net 26 "/p35" "p35"
+ 38PIN_CONN1 35
+ 40PIN_1MM_PITCH1 35
+Net 27 "/p26" "p26"
+ 38PIN_CONN1 26
+ 40PIN_1MM_PITCH1 26
+Net 28 "/p36" "p36"
+ 38PIN_CONN1 36
+ 40PIN_1MM_PITCH1 36
+Net 29 "/p27" "p27"
+ 38PIN_CONN1 27
+ 40PIN_1MM_PITCH1 27
+Net 30 "/p37" "p37"
+ 38PIN_CONN1 37
+ 40PIN_1MM_PITCH1 37
+Net 31 "/p38" "p38"
+ 38PIN_CONN1 38
+ 40PIN_1MM_PITCH1 38
+Net 32 "/p29" "p29"
+ 38PIN_CONN1 29
+ 40PIN_1MM_PITCH1 29
+Net 33 "/p39" "p39"
+ 38PIN_CONN1 39
+ 40PIN_1MM_PITCH1 39
+Net 35 "/p3" "p3"
+ 38PIN_CONN1 3
+ 40PIN_1MM_PITCH1 3
+Net 36 "/p5" "p5"
+ 38PIN_CONN1 5
+ 40PIN_1MM_PITCH1 5
+Net 37 "/p7" "p7"
+ 38PIN_CONN1 7
+ 40PIN_1MM_PITCH1 7
+Net 38 "/p8" "p8"
+ 38PIN_CONN1 8
+ 40PIN_1MM_PITCH1 8
+Net 39 "/p10" "p10"
+ 40PIN_1MM_PITCH1 10
+ 38PIN_CONN1 10
+Net 40 "/p12" "p12"
+ 38PIN_CONN1 12
+ 40PIN_1MM_PITCH1 12
+}
+#End
