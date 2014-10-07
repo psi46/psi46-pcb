@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mi 03 Sep 2014 10:58:49 CEST
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Do 02 Okt 2014 15:17:30 CEST
 
 BeginCmp
 TimeStamp = /5391DEE8;
@@ -85,7 +85,7 @@ IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5391DBC8;
+TimeStamp = /542D50A0;
 Reference = J1;
 ValeurCmp = CONN_40;
 IdModule  = MB1:40_PIN_EDGE_CONNECTOR_MINI_CARD_BACKSIDE;
