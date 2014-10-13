@@ -1,0 +1,27 @@
+### Module positions - created on Mi 08 Okt 2014 13:28:03 CEST ###
+### Printed by Pcbnew version kicad (2014-10-06 BZR 5165)-product
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       100nF            SMD0603-new:SM06   17.7000    29.2000      -0.0    B.Cu
+C2       100nF            SMD0603-new:SM06   28.1000    29.2000     180.0    B.Cu
+C3       100nF            SMD0603-new:SM06   39.2000    20.8000     180.0    B.Cu
+C4       100nF            SMD0603-new:SM06   30.9500    15.5000     270.0    B.Cu
+C5       100nF            SMD0603-new:SM06   18.5000    17.1000     270.0    B.Cu
+C6       1uF              SMD0603-new:SM06   32.7500    15.5000     270.0    B.Cu
+C7       1uF              SMD_Packages:SM0   20.4000    17.1000     270.0    B.Cu
+C8       100nF            SMD0603-new:SM06   22.3000    17.1000     270.0    B.Cu
+C9       1uF              SMD0603-new:SM06   24.3000    17.1000     270.0    B.Cu
+C10      100n             SMD0603-new:SM06    6.6000    21.8000     180.0    B.Cu
+C11      100n             SMD0603-new:SM06    6.6000    20.0000     180.0    B.Cu
+F1       FUSE             Fuse_Holders_and    4.1000    31.2000     270.0    B.Cu
+R1       100R             SMD0603-new:SM06   22.0000    29.2000     180.0    B.Cu
+R2       100R             SMD0603-new:SM06   36.5500    29.2000     180.0    B.Cu
+R3       100R             SMD0603-new:SM06   33.8000    29.2000     180.0    B.Cu
+R4       100R             SMD0603-new:SM06   45.1000    29.2000     180.0    B.Cu
+R5       10k 5%           SMD0603-new:SM06    2.3000    21.8000     180.0    B.Cu
+R6       10k 5%           SMD0603-new:SM06    7.5000    24.5000     270.0    B.Cu
+R7       10k 0.1%         SMD_Packages:SM0    2.3000    25.4000       0.0    B.Cu
+R8       10k 0.1%         SMD0603-new:SM06    2.3000    23.6000       0.0    B.Cu
+R9       10k 0.1%         SMD0603-new:SM06    5.7000    24.5000      90.0    B.Cu
+## End

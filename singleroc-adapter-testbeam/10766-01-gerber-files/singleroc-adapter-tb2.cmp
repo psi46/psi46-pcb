@@ -1,0 +1,275 @@
+Cmp-Mod V01 Genere par PcbNew le Mo 13 Okt 2014 16:56:37 CEST
+
+BeginCmp
+TimeStamp = 5433FD23
+Path = /542D50A0
+Reference = J1;
+ValeurCmp = CONN_40;
+IdModule  = Conn40:40_PIN_EDGE_CONNECTOR_MINI_CARD_BACKSIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = 54350569
+Path = 
+Reference = RF1B;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 54350519
+Path = 
+Reference = RF3B;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5435049C
+Path = 
+Reference = RF2B;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 543503F6
+Path = 
+Reference = RF3T;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 543502D1
+Path = 
+Reference = RF2T;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5435023A
+Path = 
+Reference = RF1T;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5433D8D6
+Path = /53DF47B7
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 53DFD7AD
+Path = /53E9F7ED
+Reference = J2;
+ValeurCmp = CONN-SCSI68;
+IdModule  = Adapter:SCSI68;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2078
+Path = 
+Reference = 1PIN;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2071
+Path = 
+Reference = 2PIN;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA206A
+Path = 
+Reference = 4PIN;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2063
+Path = 
+Reference = 3PIN;
+ValeurCmp = P***;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22BB
+Path = /53D8A6FB
+Reference = R8;
+ValeurCmp = 10k 0.1%;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22DC
+Path = /53D8A20F
+Reference = R5;
+ValeurCmp = 10k 5%;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22B0
+Path = /53D8A710
+Reference = R9;
+ValeurCmp = 10k 0.1%;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22D1
+Path = /53D8A244
+Reference = R6;
+ValeurCmp = 10k 5%;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22F2
+Path = /5391E300
+Reference = R3;
+ValeurCmp = 100R;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22FD
+Path = /5391E39C
+Reference = R2;
+ValeurCmp = 100R;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22E7
+Path = /5391E4B4
+Reference = R4;
+ValeurCmp = 100R;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA233C
+Path = /5391DD75
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2363
+Path = /5391DD61
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA232F
+Path = /5391DD79
+Reference = C9;
+ValeurCmp = 1uF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2370
+Path = /5391DE4B
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2356
+Path = /5391DE88
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA237D
+Path = /5391E40D
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA238A
+Path = /5391E24E
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2308
+Path = /5391E1C7
+Reference = R1;
+ValeurCmp = 100R;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 542D62CA
+Path = /5391DEE8
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 5434E64E
+Path = /53D8A1B7
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2315
+Path = /53D8A1DA
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 5433D8EC
+Path = /5406D80B
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA2349
+Path = /5391DD72
+Reference = C7;
+ValeurCmp = 1uF;
+IdModule  = SMD0603-new:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 53EA22C6
+Path = /53D8A6E6
+Reference = R7;
+ValeurCmp = 10k 0.1%;
+IdModule  = SMD0603-new:SM0603;
+EndCmp
+
+EndListe

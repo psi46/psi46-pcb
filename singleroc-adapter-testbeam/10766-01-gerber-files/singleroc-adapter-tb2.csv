@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"Conn40:40_PIN_EDGE_CONNECTOR_MINI_CARD_BACKSIDE";1;"CONN_40";;;
+2;"RF1B,RF3B,RF2B,RF3T,RF2T,RF1T,1PIN,2PIN,4PIN,3PIN";"Connect:1pin";10;"P***";;;
+3;"F1";"Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering";1;"FUSE";;;
+4;"J2";"Adapter:SCSI68";1;"CONN-SCSI68";;;
+5;"R8,R9,R7";"SMD0603-new:SM0603";3;"10k 0.1%";;;
+6;"R5,R6";"SMD0603-new:SM0603";2;"10k 5%";;;
+7;"R3,R2,R4,R1";"SMD0603-new:SM0603";4;"100R";;;
+8;"C8,C5,C4,C3,C2,C1";"SMD0603-new:SM0603_Capa";6;"100nF";;;
+9;"C9,C6,C7";"SMD0603-new:SM0603_Capa";3;"1uF";;;
+10;"C10,C11";"SMD0603-new:SM0603_Capa";2;"100n";;;
+11;"P1";"Pin_Headers:Pin_Header_Angled_1x02";1;"CONN_2";;;
