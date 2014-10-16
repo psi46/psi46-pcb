@@ -33,15 +33,15 @@ LIBS:conn-scsi68
 LIBS:CableAdapter-cache
 LIBS:conn_40
 LIBS:singleroc-adapter-tb-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "4 aug 2014"
+Title "CMS ROC Testbeam Adapter"
+Date "Do 16 Okt 2014"
 Rev ""
-Comp ""
+Comp "DESY"
 Comment1 ""
 Comment2 ""
 Comment3 ""
