@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Conn40)(type KiCad)(uri ${KIPRJMOD}/conn40.pretty)(options "")(descr ""))
+  (lib (name SMD0603-new)(type KiCad)(uri /home/spanns/psi46/PCBs/components)(options "")(descr ""))
+  (lib (name Logo)(type KiCad)(uri ${KIPRJMOD}/logo.pretty)(options "")(descr ""))
+)
