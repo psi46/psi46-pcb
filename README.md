@@ -8,3 +8,5 @@ Contains the following PCB:
 - **Single ROC PCB**
   - **singleroc-adapter-testbeam:** A shortened version of the PSI single ROC adapter
   - **singleroc-carrier-testbeam:**
+- **Test PCB**
+  - **module-DTBtest-FPix:** A board that resembles the passive/ohmic behaviour of a FPix module to test DTB readings of IA, ID, RTD-temperature and HV
