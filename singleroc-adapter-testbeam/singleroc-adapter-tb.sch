@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:singleroc-adapter-tb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:conn-scsi68
-LIBS:CableAdapter-cache
 LIBS:conn_40
 LIBS:singleroc-adapter-tb-cache
 EELAYER 25 0
@@ -50,7 +49,7 @@ $EndDescr
 Text GLabel 9600 6050 0    60   Input ~ 0
 AIN2
 $Comp
-L R R4
+L R-RESCUE-singleroc-adapter-tb R4
 U 1 1 5391E4B4
 P 4700 6250
 F 0 "R4" V 4780 6250 50  0000 C CNN
@@ -61,7 +60,7 @@ F 3 "" H 4700 6250 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-singleroc-adapter-tb C3
 U 1 1 5391E40D
 P 9400 4750
 F 0 "C3" H 9450 4850 50  0000 L CNN
@@ -76,7 +75,7 @@ NoConn ~ 10150 5850
 NoConn ~ 10150 4950
 NoConn ~ 10150 4850
 $Comp
-L R R2
+L R-RESCUE-singleroc-adapter-tb R2
 U 1 1 5391E39C
 P 5000 4550
 F 0 "R2" V 5080 4550 50  0000 C CNN
@@ -87,7 +86,7 @@ F 3 "" H 5000 4550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-singleroc-adapter-tb R3
 U 1 1 5391E300
 P 4450 4150
 F 0 "R3" V 4530 4150 50  0000 C CNN
@@ -102,7 +101,7 @@ AIN1
 Text GLabel 3600 1200 2    60   Input ~ 0
 AIN1
 $Comp
-L C C2
+L C-RESCUE-singleroc-adapter-tb C2
 U 1 1 5391E24E
 P 9200 3750
 F 0 "C2" H 9250 3850 50  0000 L CNN
@@ -113,7 +112,7 @@ F 3 "" H 9200 3750 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-singleroc-adapter-tb R1
 U 1 1 5391E1C7
 P 2100 6250
 F 0 "R1" V 2180 6250 50  0000 C CNN
@@ -128,7 +127,7 @@ AIN0
 Text GLabel 2600 4200 0    60   Input ~ 0
 AIN0
 $Comp
-L C C1
+L C-RESCUE-singleroc-adapter-tb C1
 U 1 1 5391DEE8
 P 9200 2850
 F 0 "C1" H 9250 2950 50  0000 L CNN
@@ -139,7 +138,7 @@ F 3 "" H 9200 2850 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-singleroc-adapter-tb C6
 U 1 1 5391DE88
 P 10950 1150
 F 0 "C6" H 11000 1250 50  0000 L CNN
@@ -150,7 +149,7 @@ F 3 "" H 10950 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-singleroc-adapter-tb C4
 U 1 1 5391DE4B
 P 10600 1150
 F 0 "C4" H 10650 1250 50  0000 L CNN
@@ -161,7 +160,7 @@ F 3 "" H 10600 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-singleroc-adapter-tb C9
 U 1 1 5391DD79
 P 10950 1800
 F 0 "C9" H 11000 1900 50  0000 L CNN
@@ -172,7 +171,7 @@ F 3 "" H 10950 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-singleroc-adapter-tb C8
 U 1 1 5391DD75
 P 10600 1800
 F 0 "C8" H 10650 1900 50  0000 L CNN
@@ -183,7 +182,7 @@ F 3 "" H 10600 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-singleroc-adapter-tb C7
 U 1 1 5391DD72
 P 10250 1800
 F 0 "C7" H 10300 1900 50  0000 L CNN
@@ -194,7 +193,7 @@ F 3 "" H 10250 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-singleroc-adapter-tb C5
 U 1 1 5391DD61
 P 9850 1800
 F 0 "C5" H 9900 1900 50  0000 L CNN
@@ -209,7 +208,7 @@ VD
 Text GLabel 8000 950  0    60   Input ~ 0
 VA
 $Comp
-L C C10
+L C-RESCUE-singleroc-adapter-tb C10
 U 1 1 53D8A1B7
 P 3250 1550
 F 0 "C10" H 3300 1650 50  0000 L CNN
@@ -220,7 +219,7 @@ F 3 "" H 3250 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L C-RESCUE-singleroc-adapter-tb C11
 U 1 1 53D8A1DA
 P 2850 1550
 F 0 "C11" H 2900 1650 50  0000 L CNN
@@ -231,7 +230,7 @@ F 3 "" H 2850 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-singleroc-adapter-tb R5
 U 1 1 53D8A20F
 P 2350 1000
 F 0 "R5" V 2430 1000 50  0000 C CNN
@@ -242,7 +241,7 @@ F 3 "" H 2350 1000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-singleroc-adapter-tb R6
 U 1 1 53D8A244
 P 2350 1200
 F 0 "R6" V 2430 1200 50  0000 C CNN
@@ -257,7 +256,7 @@ RTD+
 Text GLabel 1450 1000 0    60   Input ~ 0
 RTD-
 $Comp
-L R R7
+L R-RESCUE-singleroc-adapter-tb R7
 U 1 1 53D8A6E6
 P 2100 800
 F 0 "R7" V 2180 800 50  0000 C CNN
@@ -268,7 +267,7 @@ F 3 "" H 2100 800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-singleroc-adapter-tb R8
 U 1 1 53D8A6FB
 P 1650 1500
 F 0 "R8" V 1730 1500 50  0000 C CNN
@@ -279,7 +278,7 @@ F 3 "" H 1650 1500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-singleroc-adapter-tb R9
 U 1 1 53D8A710
 P 1850 1500
 F 0 "R9" V 1930 1500 50  0000 C CNN
@@ -320,7 +319,7 @@ F 3 "" H 3300 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-singleroc-adapter-tb #PWR01
 U 1 1 53EA353E
 P 3300 7100
 F 0 "#PWR01" H 3300 7100 30  0001 C CNN
@@ -428,7 +427,7 @@ NoConn ~ 2800 4300
 NoConn ~ 2800 5100
 NoConn ~ 2800 5000
 $Comp
-L GND #PWR02
+L GND-RESCUE-singleroc-adapter-tb #PWR02
 U 1 1 53EA73CA
 P 9700 6750
 F 0 "#PWR02" H 9700 6750 30  0001 C CNN
@@ -439,7 +438,7 @@ F 3 "" H 9700 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-singleroc-adapter-tb #PWR03
 U 1 1 53EA7557
 P 8300 2950
 F 0 "#PWR03" H 8300 2950 30  0001 C CNN
@@ -450,7 +449,7 @@ F 3 "" H 8300 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND-RESCUE-singleroc-adapter-tb #PWR04
 U 1 1 53EA7630
 P 9850 2050
 F 0 "#PWR04" H 9850 2050 30  0001 C CNN
@@ -461,7 +460,7 @@ F 3 "" H 9850 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-singleroc-adapter-tb #PWR05
 U 1 1 53EA7A4B
 P 3250 2000
 F 0 "#PWR05" H 3250 2000 30  0001 C CNN
@@ -472,7 +471,7 @@ F 3 "" H 3250 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND-RESCUE-singleroc-adapter-tb #PWR06
 U 1 1 53EA7B28
 P 10600 1400
 F 0 "#PWR06" H 10600 1400 30  0001 C CNN
@@ -483,7 +482,7 @@ F 3 "" H 10600 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND-RESCUE-singleroc-adapter-tb #PWR07
 U 1 1 53EA7B3C
 P 10950 1400
 F 0 "#PWR07" H 10950 1400 30  0001 C CNN
@@ -494,7 +493,7 @@ F 3 "" H 10950 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND-RESCUE-singleroc-adapter-tb #PWR08
 U 1 1 53EA7D96
 P 8900 3850
 F 0 "#PWR08" H 8900 3850 30  0001 C CNN
@@ -505,7 +504,7 @@ F 3 "" H 8900 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-singleroc-adapter-tb #PWR09
 U 1 1 53EA7DAA
 P 9150 4900
 F 0 "#PWR09" H 9150 4900 30  0001 C CNN
@@ -516,7 +515,7 @@ F 3 "" H 9150 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND-RESCUE-singleroc-adapter-tb #PWR010
 U 1 1 53EA8007
 P 10600 2050
 F 0 "#PWR010" H 10600 2050 30  0001 C CNN
@@ -527,7 +526,7 @@ F 3 "" H 10600 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND-RESCUE-singleroc-adapter-tb #PWR011
 U 1 1 53EA81A1
 P 10950 2050
 F 0 "#PWR011" H 10950 2050 30  0001 C CNN
@@ -538,7 +537,7 @@ F 3 "" H 10950 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND-RESCUE-singleroc-adapter-tb #PWR012
 U 1 1 53EA8333
 P 10250 2050
 F 0 "#PWR012" H 10250 2050 30  0001 C CNN
