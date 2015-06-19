@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:FPix2DTB_90deg_up-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:conn-scsi68
 LIBS:FPixDTBtestload-cache
 EELAYER 25 0
 EELAYER END
@@ -104,7 +102,7 @@ NoConn ~ 4900 4750
 NoConn ~ 6400 4450
 NoConn ~ 6400 4750
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R2
+L R R2
 U 1 1 526C35D1
 P 7750 2000
 F 0 "R2" V 7830 2000 40  0000 C CNN
@@ -115,7 +113,7 @@ F 3 "" H 7750 2000 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R1
+L R R1
 U 1 1 526C35EF
 P 7750 1350
 F 0 "R1" V 7830 1350 40  0000 C CNN
@@ -204,7 +202,7 @@ RTD network
 Text Notes 9200 2050 0    60   ~ 0
 Jumper will short accross \nextra calibration resistor
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R3
+L R R3
 U 1 1 558082B2
 P 8100 4650
 F 0 "R3" V 8180 4650 50  0000 C CNN
@@ -215,7 +213,7 @@ F 3 "" H 8100 4650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R6
+L R R6
 U 1 1 5582CB84
 P 7700 5550
 F 0 "R6" V 7780 5550 50  0000 C CNN
@@ -227,8 +225,6 @@ F 3 "" H 7700 5550 30  0000 C CNN
 $EndComp
 Connection ~ 8950 1650
 Connection ~ 8950 2300
-Wire Wire Line
-	7750 2300 7750 2250
 Connection ~ 8700 2300
 Connection ~ 7750 2300
 Connection ~ 7400 1100
@@ -334,7 +330,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4550 6650 4550
 Wire Wire Line
-	6400 4650 7850 4650
+	6400 4650 7950 4650
 Wire Wire Line
 	6400 4850 6650 4850
 Wire Wire Line
@@ -359,8 +355,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 1100 7750 1100
 Wire Wire Line
-	7750 1600 7750 1750
-Wire Wire Line
 	7150 2300 8700 2300
 Wire Wire Line
 	8700 1700 7750 1700
@@ -368,7 +362,7 @@ Connection ~ 7750 1700
 Wire Wire Line
 	5650 5800 8100 5800
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R4
+L R R4
 U 1 1 5582CE8F
 P 7700 3650
 F 0 "R4" V 7800 3650 50  0000 C CNN
@@ -383,7 +377,7 @@ Wire Wire Line
 Connection ~ 5650 5800
 Connection ~ 5650 3400
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R5
+L R R5
 U 1 1 5582D226
 P 8100 3650
 F 0 "R5" V 8180 3650 50  0000 C CNN
@@ -396,7 +390,7 @@ $EndComp
 Connection ~ 7700 3400
 Connection ~ 7700 3900
 $Comp
-L R-RESCUE-FPix2DTB_90deg_up R7
+L R R7
 U 1 1 5582D3F6
 P 8100 5550
 F 0 "R7" V 8180 5550 50  0000 C CNN
@@ -424,4 +418,28 @@ Wire Wire Line
 Wire Wire Line
 	8350 6000 5650 6000
 Connection ~ 5650 6000
+Wire Wire Line
+	7750 1100 7750 1200
+Wire Wire Line
+	7750 1500 7750 1850
+Wire Wire Line
+	7750 2300 7750 2150
+Wire Wire Line
+	7700 3500 7700 3400
+Wire Wire Line
+	8100 3400 8100 3500
+Wire Wire Line
+	7700 3900 7700 3800
+Wire Wire Line
+	8100 3900 8100 3800
+Wire Wire Line
+	7700 5400 7700 5300
+Wire Wire Line
+	8100 5300 8100 5400
+Wire Wire Line
+	7700 5800 7700 5700
+Wire Wire Line
+	8100 5800 8100 5700
+Wire Wire Line
+	8250 4650 8350 4650
 $EndSCHEMATC
