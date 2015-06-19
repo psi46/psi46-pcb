@@ -210,7 +210,7 @@ F 1 "25 MEG" V 8107 4651 50  0000 C CNN
 F 2 "Resistors_SMD:R_Caddock_USF371" V 8030 4650 30  0000 C CNN
 F 3 "" H 8100 4650 30  0000 C CNN
 	1    8100 4650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R6
@@ -359,8 +359,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 1700 7750 1700
 Connection ~ 7750 1700
-Wire Wire Line
-	5650 5800 8100 5800
 $Comp
 L R R4
 U 1 1 5582CE8F
@@ -398,7 +396,6 @@ F 3 "" H 8100 5550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7700 5300
-Connection ~ 7700 5800
 $Comp
 L CONN-SMK20 J1
 U 1 1 526C1CFC
@@ -440,10 +437,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 4650 8350 4650
 $Comp
-L GND #PWR?
+L GND #PWR06
 U 1 1 5584283A
 P 8500 3400
-F 0 "#PWR?" H 8500 3150 50  0001 C CNN
+F 0 "#PWR06" H 8500 3150 50  0001 C CNN
 F 1 "GND" H 8500 3250 50  0000 C CNN
 F 2 "" H 8500 3400 60  0000 C CNN
 F 3 "" H 8500 3400 60  0000 C CNN
@@ -453,4 +450,18 @@ $EndComp
 Wire Wire Line
 	7700 3400 8500 3400
 Connection ~ 8100 3400
+$Comp
+L GND #PWR?
+U 1 1 55842B75
+P 7900 5800
+F 0 "#PWR?" H 7900 5550 50  0001 C CNN
+F 1 "GND" H 7900 5650 50  0000 C CNN
+F 2 "" H 7900 5800 60  0000 C CNN
+F 3 "" H 7900 5800 60  0000 C CNN
+	1    7900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5800 8100 5800
+Connection ~ 7900 5800
 $EndSCHEMATC
