@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:conn-scsi68
-LIBS:FPix2DTB_90deg_up-cache
+LIBS:FPixDTBtestload-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
