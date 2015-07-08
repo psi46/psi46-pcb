@@ -10,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -54,11 +55,9 @@ F 3 "" H 13700 -6750 60  0000 C CNN
 	1    13700 -6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 3650 2    60   Output ~ 0
-TBM_Out_A+
-Text GLabel 6650 3900 2    60   Input ~ 0
+Text GLabel 6700 5300 2    60   Input ~ 0
 VA
-Text GLabel 4550 5100 0    60   Input ~ 0
+Text GLabel 4550 4100 0    60   Input ~ 0
 VD
 $Comp
 L GND #PWR02
@@ -71,32 +70,12 @@ F 3 "" H 4150 5650 60  0000 C CNN
 	1    4150 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 4600 2    60   Input ~ 0
-HV
 Text GLabel 4550 4600 0    60   Input ~ 0
 HV
-Text GLabel 6650 5450 2    60   Input ~ 0
+Text GLabel 6600 3650 2    60   Input ~ 0
 RTD+
-Text GLabel 6650 5550 2    60   Output ~ 0
+Text GLabel 6600 3750 2    60   Output ~ 0
 RTD-
-Text GLabel 6650 3750 2    60   Output ~ 0
-TBM_Out_A-
-Text GLabel 6650 4050 2    60   Output ~ 0
-TBM_RDa_Out+
-Text GLabel 6650 4150 2    60   Output ~ 0
-TBM_RDa_Out-
-Text GLabel 6650 4250 2    60   Input ~ 0
-TBM_SD_In+
-Text GLabel 6650 4350 2    60   Input ~ 0
-TBM_SD_In-
-Text GLabel 6650 4850 2    60   Input ~ 0
-TBM_Trig_In+
-Text GLabel 6650 4950 2    60   Input ~ 0
-TBM_Trig_In-
-Text GLabel 6650 5050 2    60   Input ~ 0
-TBM_Clk_In+
-Text GLabel 6650 5150 2    60   Input ~ 0
-TBM_Clk_In-
 NoConn ~ 4900 4450
 NoConn ~ 4900 4750
 NoConn ~ 6400 4450
@@ -160,7 +139,7 @@ F 3 "" H 7400 2300 60  0000 C CNN
 	1    7400 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 4100 0    60   Input ~ 0
+Text GLabel 4550 5100 0    60   Input ~ 0
 VA
 $Comp
 L GND #PWR03
@@ -184,7 +163,7 @@ F 3 "" H 5800 3250 60  0000 C CNN
 	1    5800 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 5300 2    60   Input ~ 0
+Text GLabel 6700 3900 2    60   Input ~ 0
 VD
 Text Notes 6600 950  0    60   ~ 0
 RTD network
@@ -215,9 +194,6 @@ $EndComp
 Connection ~ 7750 2300
 Connection ~ 7400 1100
 Connection ~ 7400 2300
-Wire Wire Line
-	6650 4600 6700 4600
-Connection ~ 6650 4600
 Wire Wire Line
 	4900 4550 4650 4550
 Wire Wire Line
@@ -273,16 +249,12 @@ Wire Wire Line
 	4900 5550 4150 5550
 Connection ~ 4150 5550
 Wire Wire Line
-	4550 4100 4650 4100
-Wire Wire Line
 	4650 4050 4650 4150
 Wire Wire Line
 	4650 4050 4900 4050
 Wire Wire Line
 	4650 4150 4900 4150
 Connection ~ 4650 4100
-Wire Wire Line
-	4550 5100 4650 5100
 Wire Wire Line
 	4650 5050 4650 5150
 Wire Wire Line
@@ -291,51 +263,23 @@ Wire Wire Line
 	4650 5150 4900 5150
 Connection ~ 4650 5100
 Wire Wire Line
-	6400 3650 6650 3650
-Wire Wire Line
-	6400 3750 6650 3750
-Wire Wire Line
 	6400 3850 6550 3850
 Wire Wire Line
 	6550 3850 6550 3950
 Wire Wire Line
-	6550 3900 8100 3900
-Wire Wire Line
 	6550 3950 6400 3950
 Connection ~ 6550 3900
-Wire Wire Line
-	6400 4050 6650 4050
-Wire Wire Line
-	6400 4150 6650 4150
-Wire Wire Line
-	6400 4250 6650 4250
-Wire Wire Line
-	6400 4350 6650 4350
 Wire Wire Line
 	6400 4550 6650 4550
 Wire Wire Line
 	6400 4650 7950 4650
 Wire Wire Line
-	6400 4850 6650 4850
-Wire Wire Line
-	6400 4950 6650 4950
-Wire Wire Line
-	6400 5050 6650 5050
-Wire Wire Line
-	6400 5150 6650 5150
-Wire Wire Line
 	6400 5250 6550 5250
 Wire Wire Line
 	6550 5250 6550 5350
 Wire Wire Line
-	6550 5300 8100 5300
-Wire Wire Line
 	6550 5350 6400 5350
 Connection ~ 6550 5300
-Wire Wire Line
-	6400 5450 6650 5450
-Wire Wire Line
-	6400 5550 6650 5550
 Wire Wire Line
 	7150 1100 7950 1100
 Connection ~ 7750 1700
@@ -387,10 +331,6 @@ F 3 "" H 5700 4850 60  0000 C CNN
 	1    5650 4600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8350 4650 8350 6000
-Wire Wire Line
-	8350 6000 5650 6000
 Connection ~ 5650 6000
 Wire Wire Line
 	7750 1100 7750 1200
@@ -403,9 +343,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 3400 8100 3500
 Wire Wire Line
-	7700 3900 7700 3800
+	7700 3800 7700 4000
 Wire Wire Line
-	8100 3900 8100 3800
+	8100 3800 8100 4000
 Wire Wire Line
 	7700 5400 7700 5300
 Wire Wire Line
@@ -415,7 +355,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 5800 8100 5700
 Wire Wire Line
-	8250 4650 8350 4650
+	8250 4650 8700 4650
 $Comp
 L GND #PWR05
 U 1 1 5584283A
@@ -510,4 +450,51 @@ Wire Wire Line
 Wire Wire Line
 	6650 4550 6650 4650
 Connection ~ 6650 4650
+NoConn ~ 6400 4050
+NoConn ~ 6400 4150
+NoConn ~ 6400 4250
+NoConn ~ 6400 4350
+NoConn ~ 6400 4850
+NoConn ~ 6400 4950
+NoConn ~ 6400 5050
+NoConn ~ 6400 5150
+NoConn ~ 6400 5450
+NoConn ~ 6400 5550
+Wire Wire Line
+	6400 3650 6600 3650
+Wire Wire Line
+	6400 3750 6600 3750
+Wire Wire Line
+	4650 4100 4550 4100
+Wire Wire Line
+	4550 5100 4650 5100
+Text GLabel 8500 4000 2    60   Input ~ 0
+VA
+Wire Wire Line
+	7700 4000 8500 4000
+Connection ~ 8100 3900
+Connection ~ 8100 4000
+Text GLabel 8600 5300 2    60   Input ~ 0
+VD
+$Comp
+L GND #PWR?
+U 1 1 559D8FFC
+P 8700 4700
+F 0 "#PWR?" H 8700 4450 60  0001 C CNN
+F 1 "GND" H 8700 4550 60  0000 C CNN
+F 2 "" H 8700 4700 60  0000 C CNN
+F 3 "" H 8700 4700 60  0000 C CNN
+	1    8700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4650 8700 4700
+Connection ~ 8350 4650
+Connection ~ 8100 5300
+Wire Wire Line
+	6550 5300 6700 5300
+Wire Wire Line
+	6550 3900 6700 3900
+Wire Wire Line
+	7700 5300 8600 5300
 $EndSCHEMATC
