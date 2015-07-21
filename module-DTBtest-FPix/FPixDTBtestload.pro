@@ -1,6 +1,6 @@
-update=Freitag, 19. Juni 2015 16:07:35
+update=Tuesday, 14 July 2015 08:47:19
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -76,4 +76,7 @@ SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
 LabSize=60

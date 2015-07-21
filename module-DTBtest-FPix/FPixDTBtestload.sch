@@ -316,10 +316,10 @@ VA
 Text GLabel 8600 5300 2    60   Input ~ 0
 VD
 $Comp
-L GND #PWR?
+L GND #PWR09
 U 1 1 559D8FFC
 P 8700 4700
-F 0 "#PWR?" H 8700 4450 60  0001 C CNN
+F 0 "#PWR09" H 8700 4450 60  0001 C CNN
 F 1 "GND" H 8700 4550 60  0000 C CNN
 F 2 "" H 8700 4700 60  0000 C CNN
 F 3 "" H 8700 4700 60  0000 C CNN
@@ -330,7 +330,6 @@ Text GLabel 6850 4600 2    60   Input ~ 0
 HV
 Text GLabel 7600 4650 0    60   Input ~ 0
 HV
-Connection ~ 7750 2300
 Connection ~ 7400 1100
 Connection ~ 7400 2300
 Wire Wire Line
@@ -417,8 +416,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 5350 6400 5350
 Connection ~ 6550 5300
-Wire Wire Line
-	7150 1100 7950 1100
 Connection ~ 7750 1700
 Connection ~ 5650 5800
 Connection ~ 5650 3400
@@ -427,10 +424,6 @@ Connection ~ 7700 5300
 Connection ~ 5650 6000
 Wire Wire Line
 	7750 1100 7750 1200
-Wire Wire Line
-	7750 1500 7750 1850
-Wire Wire Line
-	7750 2300 7750 2150
 Wire Wire Line
 	7700 3500 7700 3400
 Wire Wire Line
@@ -463,13 +456,7 @@ Wire Wire Line
 	4050 1900 4050 2150
 Wire Wire Line
 	7750 1700 8300 1700
-Wire Wire Line
-	7150 2300 8400 2300
-Wire Wire Line
-	8400 2300 8400 1950
 Connection ~ 7750 1100
-Wire Wire Line
-	8250 1100 8400 1100
 Wire Wire Line
 	8400 1100 8400 1450
 Wire Wire Line
@@ -504,4 +491,17 @@ Wire Wire Line
 	8700 4650 8350 4650
 Wire Wire Line
 	7850 4650 7600 4650
+Wire Wire Line
+	7150 2300 8400 2300
+Wire Wire Line
+	7750 2300 7750 2250
+Wire Wire Line
+	8400 2300 8400 1950
+Connection ~ 7750 2300
+Wire Wire Line
+	7750 1600 7750 1750
+Wire Wire Line
+	7150 1100 7850 1100
+Wire Wire Line
+	8350 1100 8400 1100
 $EndSCHEMATC
