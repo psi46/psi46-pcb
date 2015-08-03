@@ -1,10 +1,6 @@
-update=Tuesday, 14 July 2015 08:47:19
+update=Tuesday, 14 July 2015 13:16:59
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [eeschema]
 version=1
 LibDir=
@@ -80,3 +76,5 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[general]
+version=1
