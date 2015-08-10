@@ -1,10 +1,6 @@
-update=Tuesday, 14 July 2015 08:47:19
+update=Wednesday, 05 August 2015 13:52:48
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [eeschema]
 version=1
 LibDir=
@@ -67,6 +63,8 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.1524
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
