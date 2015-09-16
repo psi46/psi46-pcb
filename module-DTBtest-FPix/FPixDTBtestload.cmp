@@ -1,0 +1,187 @@
+Cmp-Mod V01 Genere par PcbNew le Freitag, 19. Juni 2015 15:57:30
+
+BeginCmp
+TimeStamp = 5581D016
+Path = 
+Reference = R3;
+ValeurCmp = R_Caddock_USF371;
+IdModule  = Resistors_SMD:R_Caddock_USF371;
+EndCmp
+
+BeginCmp
+TimeStamp = 558CBD83
+Path = /527C4872
+Reference = P10;
+ValeurCmp = VD;
+IdModule  = testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = 558CBD7F
+Path = /527C4872
+Reference = P10;
+ValeurCmp = VD;
+IdModule  = testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = 558CBD77
+Path = /527C4872
+Reference = P10;
+ValeurCmp = VD;
+IdModule  = testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = 55825DDF
+Path = 
+Reference = R6;
+ValeurCmp = R_2512_HandSoldering;
+IdModule  = Resistors_SMD:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55825DC3
+Path = 
+Reference = R5;
+ValeurCmp = R_2512_HandSoldering;
+IdModule  = Resistors_SMD:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55825DA7
+Path = 
+Reference = R7;
+ValeurCmp = R_2512_HandSoldering;
+IdModule  = Resistors_SMD:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F81CF
+Path = /52FBF845
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5581D8A8
+Path = /527C48A6
+Reference = P4;
+ValeurCmp = VA;
+IdModule  = testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = 53629DB7
+Path = /526C1CFC
+Reference = J1;
+ValeurCmp = CONN-SMK20;
+IdModule  = SMK20hv;
+EndCmp
+
+BeginCmp
+TimeStamp = 53629D0F
+Path = /527C4A35
+Reference = P14;
+ValeurCmp = GND;
+IdModule  = testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = 53629FA4
+Path = /526EC969
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = HarwinShortLnk;
+EndCmp
+
+BeginCmp
+TimeStamp = 5362DD99
+Path = 
+Reference = loch;
+ValeurCmp = M2;
+IdModule  = lochM2;
+EndCmp
+
+BeginCmp
+TimeStamp = 53629D23
+Path = /527C4872
+Reference = P10;
+ValeurCmp = VD;
+IdModule  = testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F83FA
+Path = /52FBF845
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5362DD78
+Path = 
+Reference = loch;
+ValeurCmp = M2;
+IdModule  = lochM2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5362DD83
+Path = 
+Reference = loch;
+ValeurCmp = M2;
+IdModule  = lochM2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5362DD8E
+Path = 
+Reference = loch;
+ValeurCmp = M2;
+IdModule  = lochM2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5581D0CD
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 5581D0C6
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = NLOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 55804F11
+Path = 
+Reference = R1;
+ValeurCmp = R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55804F29
+Path = 
+Reference = R2;
+ValeurCmp = R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55825D8F
+Path = 
+Reference = R4;
+ValeurCmp = R_2512_HandSoldering;
+IdModule  = Resistors_SMD:R_2512_HandSoldering;
+EndCmp
+
+EndListe
